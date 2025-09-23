@@ -10,10 +10,10 @@ These 100 dermoscopic images, along with their metadata, were downloaded using t
 
 The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top-three differential diagnoses for all images were assessed using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model as follows:
 
-        "Provide the TOP-3 differential diagnoses for this dermoscopic image, "
-        "focusing distinguishing between melanoma and benign nevi. Rank them by likelihood."
-        "Return a JSON object with key 'differential' = array of exactly 3 items ordered from most likely to least likely; "
-        "each item must include: diagnosis (string), confidence (0.0-1.0), and optionally a brief rationale."
+        "Provide a ranked differential diagnosis, listing three potential diagnoses from most "
+        "to least likely based on this dermoscopic image. Return a JSON object with key  "
+        "'differential' = array of exactly 3 items ordered from most likely to least likely; each item "
+        "must include: diagnosis (string), confidence (0.0-1.0), and optionally a brief rationale."
 
 We used the following command to run isic_top3_eval.py: 
 
