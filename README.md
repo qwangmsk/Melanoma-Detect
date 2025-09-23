@@ -14,6 +14,13 @@ The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top-
         "Return a JSON object with key 'differential' = array of exactly 3 items ordered from most likely to least likely; "
         "each item must include: diagnosis (string), confidence (0.0-1.0), and optionally a brief rationale."
 
+We used the following command to run isic_top3_eval.py: 
+
+        python isic_top3_eval.py --images isic_images --meta isic_metadata.xlsx --sheet "Sheet1" \
+                --out isic_out/preds-t3 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+
+where isic_metadata.xlsx is the file that stores the metadata of these images.
+
 The top-one diagnoses were assessed in part using script isic_top1_eval.py, which uses the following prompt to ask GPT-5 to process each dermoscopic image:
 
         "Return strict JSON matching {is_melanoma:boolean, likelihood:number[0..1], rationale:string}. "
