@@ -4,7 +4,8 @@ Fetch ISIC metadata (single summary table) + images for a list of IDs.
 
 Examples:
   python download_isic.py isic-100-image-ids.txt --out isic_data --xlsx
-  python download_isic.py isic-100-image-ids.txt --id-col isic_id --out isic_out --workers 8 --skip-existing
+  python download_isic.py ham10k-500-image-ids.txt --out ham10k_images --xlsx
+  # python download_isic.py isic-100-image-ids.txt --id-col isic_id --out isic_out --workers 8 --skip-existing
 """
 
 from __future__ import annotations
