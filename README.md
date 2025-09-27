@@ -26,7 +26,7 @@ The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top 
         likely to least likely; each item must include: diagnosis (string), 
         confidence (0.0-1.0), and optionally a brief rationale.
 
-The command to assess GPT-5 on ISIC: 
+The command to assess GPT-5 for top-3 differential diagnoses on ISIC: 
 
         python isic_top3_eval.py --images isic_images \ 
                 --meta isic_images/isic_metadata.xlsx --sheet "Sheet1" \
@@ -42,7 +42,15 @@ The command to assess GPT-5 on HAM10K:
 
 where isic_metadata.xlsx is the image metadata file created using script download_images.py.
 
-The top-one diagnoses were assessed in part using script isic_top1_eval.py, which uses the following prompt to ask GPT-5 to process each dermoscopic image:
+The malignancy discrimination were assessed using script isic_malignancy_eval.py, which uses the following prompt to ask GPT-5 to process each dermoscopic image:
 
-        "Return strict JSON matching {is_melanoma:boolean, likelihood:number[0..1], rationale:string}. "
-        "If uncertain, still decide but lower likelihood."
+        Classify this lesion as melanoma or not. If uncertain, still decide 
+        but lower likelihood. Return strict JSON matching {is_melanoma:boolean, 
+        likelihood:number[0..1], rationale:string}. 
+
+The command to assess GPT-5 for malignancy discrimination on ISIC: 
+
+        python isic_malignancy_eval.py --images isic_images \
+                --meta isic_images/isic_metadata.xlsx  \
+                --sheet "Sheet1" --out isic_out/preds 
+                --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
