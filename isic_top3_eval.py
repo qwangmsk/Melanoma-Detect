@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# My command: python isic_top3_eval.py --images isic_images --meta isic_metadata.xlsx --sheet "Sheet1" --out isic_out/preds-t3 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
-# My command: python isic_top3_eval.py --images ham10k_images --meta ham10k_images/isic_metadata.xlsx --sheet "Sheet1" --out ham10k_out/preds-t3 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+# Example commands: 
+# python isic_top3_eval.py --images isic_images --meta isic_metadata.xlsx --sheet "Sheet1" --out isic_out/preds-t3 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+# python isic_top3_eval.py --images ham10k_images --meta ham10k_images/isic_metadata.xlsx --sheet "Sheet1" --out ham10k_out/preds-t3 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
 
 from __future__ import annotations
 import os, sys, re, json, time, base64, argparse
