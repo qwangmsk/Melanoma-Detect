@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # My command:
-# python isic_top1_eval.py --images isic_images --meta isic_metadata.xlsx --sheet "Sheet1" --out isic_out/preds --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+# python isic_malignancy_eval.py --images isic_images   --meta isic_images/isic_metadata.xlsx   --sheet "Sheet1" --out isic_out/preds --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+# python isic_malignancy_eval.py --images ham10k_images --meta ham10k_images/isic_metadata.xlsx --sheet "Sheet1" --out ham10k_out --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+
 from __future__ import annotations
 import os, sys, base64, json, time, argparse, re
 from pathlib import Path
@@ -42,7 +44,7 @@ def _extract_json_from_responses(resp):
     raise ValueError("Could not parse JSON from Responses API output")
 
 def call_gpt_image_binary(client: OpenAI, model: str, image_path: Path,
-                          fallback_model: str = "gpt-4o-mini",
+                          fallback_model: str = "gpt-5",
                           retries=3, backoff=1.7) -> dict:
     """
     Try Responses API with json_schema; if that fails, fall back to Chat Completions JSON mode.
@@ -53,9 +55,8 @@ def call_gpt_image_binary(client: OpenAI, model: str, image_path: Path,
         return f"data:{mime};base64,{base64.b64encode(p.read_bytes()).decode('utf-8')}"
 
     prompt = (
-        #"You are an expert dermoscopy reader. Classify this lesion as melanoma or not. "
+        "Classify this lesion as melanoma or not. If uncertain, still decide but lower likelihood."
         "Return strict JSON matching {is_melanoma:boolean, likelihood:number[0..1], rationale:string}. "
-        "If uncertain, still decide but lower likelihood."
     )
     data_url = b64_data_url(image_path)
 
