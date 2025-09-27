@@ -54,7 +54,7 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
 
-### Contact
+## Contact
 
         Qingguo Wang, PhD
         Professor & Director of Genomics Data Core
