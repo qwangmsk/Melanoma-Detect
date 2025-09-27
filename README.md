@@ -18,7 +18,7 @@ From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
 ## GPT-5 Assessment
-The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top-three differential diagnoses for all images were assessed using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model as follows:
+The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top one and top-three differential diagnoses of GPT-5 were assessed using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model as follows:
 
         Provide a ranked differential diagnosis, listing three potential diagnoses 
         from most to least likely based on this dermoscopic image. Return a JSON
@@ -26,14 +26,21 @@ The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top-
         likely to least likely; each item must include: diagnosis (string), 
         confidence (0.0-1.0), and optionally a brief rationale.
 
-We used the following command to run isic_top3_eval.py: 
+The command to assess GPT-5 on ISIC: 
 
         python isic_top3_eval.py --images isic_images \ 
-                --meta isic_metadata.xlsx --sheet "Sheet1" \
+                --meta isic_images/isic_metadata.xlsx --sheet "Sheet1" \
                 --out isic_out/preds-t3 --model gpt-5 \
                 --truth-col "metadata.clinical.diagnosis_1"
 
-where isic_metadata.xlsx is the file that stores the metadata of these images.
+The command to assess GPT-5 on HAM10K: 
+
+        python isic_top3_eval.py --images ham10k_images \ 
+                --meta ham10k_images/isic_metadata.xlsx --sheet "Sheet1" \
+                --out ham10k_out/preds-t3 --model gpt-5 \
+                --truth-col "metadata.clinical.diagnosis_1"
+
+where isic_metadata.xlsx is the image metadata file created using script download_images.py.
 
 The top-one diagnoses were assessed in part using script isic_top1_eval.py, which uses the following prompt to ask GPT-5 to process each dermoscopic image:
 
