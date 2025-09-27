@@ -1,6 +1,6 @@
 # Melanoma-Detect
 
-## Data
+## Dermoscopic Images
 This project uses two popular datasets, ISIC Archive (https://api.isic-archive.com/images/) and HAM10K dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma diagnosis. 
 
 A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from ISIC to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the ISIC image identifiers from the paper, with which we retrieved these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. The ISIC IDs of these images can be found in the supplementary file of this paper:
@@ -17,7 +17,7 @@ From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images
 
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
-## Study Design
+## GPT-5 Assessment
 The melanoma detection of GPT-5 is assessed using OpenAI API interface. The top-three differential diagnoses for all images were assessed using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model as follows:
 
         Provide a ranked differential diagnosis, listing three potential diagnoses 
