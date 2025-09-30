@@ -1,7 +1,7 @@
 # Melanoma-Detect
 
 ## Data Sources
-This project uses two popular datasets, ISIC Archive (https://api.isic-archive.com/images/) and HAM10K dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma diagnosis. 
+This project uses two popular datasets, the International Skin Imaging Collaboration (ISIC) Archive (https://api.isic-archive.com/images/) and HAM10K dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
 (1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from ISIC to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the ISIC image identifiers from the paper, with which we retrieved these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. The ISIC IDs of these images can be found in the supplementary file of this paper:
 
@@ -9,7 +9,7 @@ This project uses two popular datasets, ISIC Archive (https://api.isic-archive.c
         melanoma? Anexploratory diagnostic accuracy study. Journal of the American 
         Academy of Dermatology, 2024;90(5):1057-1059. 
 
-(2) From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images (PMID: 40117499, DOI: 10.2196/67551) to evaluate GPT-4T and GPT-4o. However, the study did not disclose the identifiers of the selected images. Following the description in that paper, we independently sampled 500 images from HAM10K to construct our test dataset. Given the independent sampling, the overlap between the two sets is expected to be minimal. To ensure reproducibility, we have made the identifiers of our 500 images publicly available on this site.
+(2) From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images (PMID: 40117499, DOI: 10.2196/67551) to evaluate GPT-4T and GPT-4o. However, the study did not disclose the identifiers of the selected images. Following the description in that paper, we independently sampled 500 images from HAM10K to construct our test dataset. Given the independent sampling, the overlap between the two sets is expected to be small. To ensure reproducibility, we share the identifiers of our 500 images through this site (in the file ham10k-500-image-ids.txt).
 
         Sattler SS, Chetla N, Chen M, et al. Evaluating the Diagnostic Accuracy
         of ChatGPT-4 Omni and ChatGPT-4 Turbo in Identifying Melanoma: Comparative 
