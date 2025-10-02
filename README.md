@@ -7,7 +7,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 1. Sign up at the OpenAI API platform.
 2. Ensure you have a payment method on file or top up with a balance.
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
-4. Save your key as a global environment variable so you can access across various applications and scripts on your system without hardcoding it.
+4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
    
 ## Data Source
 This project uses two popular datasets, the International Skin Imaging Collaboration (ISIC) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (HAM10000 or HAM10K) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
