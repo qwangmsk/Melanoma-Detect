@@ -1,8 +1,8 @@
 # Melanoma-Detect
 
-## Project objective
+##  
 
-To evaluate the performance of the newly released GPT-5 for melanoma detection.
+The objective of this project is to evaluate the performance of the newly released GPT-5 for melanoma detection.
 
 ## System setup
 
