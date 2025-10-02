@@ -1,5 +1,9 @@
 # Melanoma-Detect
 
+## Project objective
+
+To evaluate the performance of the newly released GPT-5 for melanoma detection.
+
 ## System setup
 
 To run the code on this Github site, a valid OpenAI API account and an API key are required. You can follow the following steps to set up your running environment:
