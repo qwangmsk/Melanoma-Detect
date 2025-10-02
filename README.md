@@ -1,5 +1,14 @@
 # Melanoma-Detect
 
+## System setup
+
+To run the code on this Github site, a valid OpenAI API account and an API key are required. You can follow the following steps to set up your running environment:
+
+1. Sign up at the OpenAI API platform.
+2. Ensure you have a payment method on file or top up with a balance.
+3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
+4. Save your key as a global environment variable so you can access across various applications and scripts on your system without hardcoding it.
+   
 ## Data Source
 This project uses two popular datasets, the International Skin Imaging Collaboration (ISIC) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (HAM10000 or HAM10K) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
@@ -53,4 +62,3 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --meta isic_images/isic_metadata.xlsx  \
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
-
