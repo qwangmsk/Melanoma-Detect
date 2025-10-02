@@ -5,7 +5,7 @@
 To run the code on this Github site, a valid OpenAI API account and an API key are required. You can follow the following steps to set up your running environment:
 
 1. Sign up at the OpenAI API platform.
-2. Ensure you have a payment method on file or top up with a balance.
+2. Set up your payment method.
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
    
