@@ -66,7 +66,7 @@ def call_gpt_image_binary(client: OpenAI, model: str, image_path: Path,
             # --- Preferred: Responses API with structured outputs ---
             resp = client.responses.create(
                 model=model,
-                temperature=0,   
+                # temperature=0,   
                 input=[{
                     "role": "user",
                     "content": [
