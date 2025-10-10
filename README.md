@@ -16,7 +16,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 ## Data Source
 This project uses two popular datasets, the International Skin Imaging Collaboration (ISIC) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (HAM10000 or HAM10K) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
-(1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from ISIC to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the ISIC image identifiers from their publication (provided in file isic-100-image-ids.txt), with which we retrieved these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. The ISIC IDs of these images can be found in the supplementary file of this paper:
+(1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from ISIC to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the identifiers of these ISIC images from their publication and provided them in a file isic-100-image-ids.txt on this site. With these identifiers, we downloaded these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. 
 
         Shifai N, Van Doorn R, Malvehy J, Sangers TE. Can ChatGPT vision diagnose 
         melanoma? Anexploratory diagnostic accuracy study. Journal of the American 
