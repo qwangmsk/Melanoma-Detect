@@ -22,7 +22,7 @@ This project uses two popular datasets, the International Skin Imaging Collabora
         melanoma? Anexploratory diagnostic accuracy study. Journal of the American 
         Academy of Dermatology, 2024;90(5):1057-1059. 
 
-(2) From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images (PMID: 40117499, DOI: 10.2196/67551) to evaluate GPT-4T and GPT-4o. However, the study did not disclose the identifiers of the selected images. Following the description in that paper, we independently sampled 500 images from HAM10K to construct our test dataset. Given the independent sampling, however, the overlap between the two sets is expected to be small. To ensure reproducibility, we share the identifiers of our 500 images through file ham10k-500-image-ids.txt.
+(2) From the HAM10K dataset, a recent study randomly selected 500 dermoscopic images (PMID: 40117499, DOI: 10.2196/67551) to evaluate GPT-4T and GPT-4o. However, the study did not disclose the identifiers of the selected images. Following the description in that paper, we independently sampled 500 images from HAM10K to construct our test dataset. Given the independent sampling, however, the overlap between the two sets is expected to be small. To ensure reproducibility, we share the identifiers of our 500 images in a file ham10k-500-image-ids.txt.
 
         Sattler SS, Chetla N, Chen M, et al. Evaluating the Diagnostic Accuracy
         of ChatGPT-4 Omni and ChatGPT-4 Turbo in Identifying Melanoma: Comparative 
