@@ -31,7 +31,7 @@ This project uses two popular datasets, the International Skin Imaging Collabora
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
 ## GPT-5 Assessment
-(1) The melanoma detection is assessed using OpenAI API interface. The top one and top-three differential diagnoses of GPT-5 were conducted using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model. Below is the prompt we used:
+(1) The melanoma detection is assessed using OpenAI API interface. The top-one and top-three differential diagnoses of GPT-5 were conducted using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model. Below is the prompt we used:
 
         Provide a ranked differential diagnosis, listing three potential diagnoses 
         from most to least likely based on this dermoscopic image. Return a JSON
