@@ -1,4 +1,4 @@
-# Melanoma-Detect
+## Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images
 
 The objective of this project is to evaluate the performance of the newly released GPT-5 for melanoma detection.
 
@@ -69,9 +69,15 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
 
 ## A snapshot of GPT-5 results
-A summary of GPT-5 performance in melanoma detection on ISIC images is provided as follows. For comprehensive analysis and results of GPT-5, please see our recent publication below. 
+A summary of GPT-5 performance in melanoma detection on ISIC:  
 
 ![Figure](https://www.mdpi.com/diagnostics/diagnostics-15-03052/article_deploy/html/images/diagnostics-15-03052-g003-550.jpg)
+
+GPT-5 performance on HAM10K:
+
+![Figure](https://www.mdpi.com/diagnostics/diagnostics-15-03052/article_deploy/html/images/diagnostics-15-03052-g004-550.jpg)
+
+For comprehensive analysis and results of GPT-5, please see our recent publication below.
 
 ## Publication
 
