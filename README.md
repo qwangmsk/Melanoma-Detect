@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
    
-## Data Source
+## Data Sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (ISIC) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (HAM10000 or HAM10K) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
 (1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from ISIC to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the identifiers of these ISIC images from their publication and provided them in a file isic-100-image-ids.txt on this site. With these identifiers, we downloaded these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. 
