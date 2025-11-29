@@ -66,3 +66,7 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --meta isic_images/isic_metadata.xlsx  \
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+
+## Publication
+
+Wang, Q.; Amugo, I.; Rajakaruna, H.; Irudayam, M.J.; Xie, H.; Shanker, A.; Adunyah, S.E. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
