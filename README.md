@@ -1,8 +1,8 @@
 # Melanoma-Detect
 
-##  
-
 The objective of this project is to evaluate the performance of the newly released GPT-5 for melanoma detection.
+
+![Model Diagram](images/Figure_1.png)
 
 ## System setup
 
@@ -66,6 +66,11 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --meta isic_images/isic_metadata.xlsx  \
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
+
+## A snapshot of GPT-5 results
+A summary of GPT-5 performance in melanoma detection on ISIC images is provided as follows. For comprehensive analysis and results of GPT-5, please see our recent publication below. 
+
+![Model Diagram](images/Figure_3.png)
 
 ## Publication
 
