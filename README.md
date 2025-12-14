@@ -75,7 +75,7 @@ A summary of GPT-5 performance in melanoma detection on ISIC:
 
 GPT-5 performance on HAM10K:
 
-![Figure](https://www.mdpi.com/diagnostics/diagnostics-15-03052/article_deploy/html/images/diagnostics-15-03052-g004-550.jpg)
+<img src="images/Figure_4.png" width="400">
 
 For comprehensive analysis and results of GPT-5, please see our recent publication below.
 
