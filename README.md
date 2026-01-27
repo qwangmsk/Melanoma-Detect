@@ -10,8 +10,10 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 2. Set up your payment method.
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
-   
-## Data sources
+
+## 1. Overall Diagnostic Performance
+
+### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
 (1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from <strong>ISIC</strong> to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the identifiers of these ISIC images from their publication and provided them in a file isic-100-image-ids.txt on this site. With these identifiers, we downloaded these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. 
@@ -28,7 +30,7 @@ This project uses two popular datasets, the International Skin Imaging Collabora
 
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
-## GPT-5 assessment
+### GPT-5 assessment
 
 ![Figure](images/Figure_1.png)
 
@@ -68,7 +70,7 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
 
-## A snapshot of GPT-5's performance
+### A snapshot of GPT-5's performance
 A summary of GPT-5 performance in melanoma detection on ISIC:  
 
 ![Figure](images/Figure_3.png)
@@ -79,6 +81,10 @@ GPT-5 performance on HAM10K:
 
 For comprehensive analysis and results of GPT-5, please see our recent publication below.
 
-## Publication
+### Publication
 
 Wang, Q.; Amugo, I.; Rajakaruna, H.; Irudayam, M.J.; Xie, H.; Shanker, A.; Adunyah, S.E. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
+
+## 2. Diagnostic Performance Across Skin-Tone Subgroups
+
+<!--The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing GPT's robustness across diverse skin tones. After surveying many dermatology image datasets, we identified Milk10K as a suitable resource for evaluating melanoma diagnostic performance across skin tones using dermoscopic images. Our code and results will be posted  -->
