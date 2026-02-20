@@ -83,7 +83,9 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
 
 ### Publication
 
-Wang, Q.; Amugo, I.; Rajakaruna, H.; Irudayam, M.J.; Xie, H.; Shanker, A.; Adunyah, S.E. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
+    Wang, Q.; Amugo, I.; Rajakaruna, H.; Irudayam, M.J.; Xie, H.; Shanker, A.; Adunyah, S.E. 
+    Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 2025, 15, 3052. 
+    https://doi.org/10.3390/diagnostics15233052
 
 ## 2. GPT-5.2 Diagnostic Performance Across Skin-Tone Subgroups
 
