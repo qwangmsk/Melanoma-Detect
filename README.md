@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Overall Diagnostic Performance
+## 1. Overall Diagnostic Performance of GPT-5
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
@@ -85,6 +85,16 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
 
 Wang, Q.; Amugo, I.; Rajakaruna, H.; Irudayam, M.J.; Xie, H.; Shanker, A.; Adunyah, S.E. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. Diagnostic Performance Across Skin-Tone Subgroups
+## 2. GPT-5.2 Diagnostic Performance Across Skin-Tone Subgroups
 
-<!--The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing GPT's robustness across diverse skin tones. After surveying many dermatology image datasets, we identified Milk10K as a suitable resource for evaluating melanoma diagnostic performance across skin tones using dermoscopic images. Our code and results will be posted  -->
+### Data sources
+The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing GPT's robustness across diverse populations. 
+
+After surveying many dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT melanoma diagnostic performance across skin tones. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
+
+        Tschandl P, Akay BN, Rosendahl C, Rotemberg V, Todorovska V, Weber J, et al. 
+        MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit for Diagnosing Pigmented 
+        and Nonpigmented Skin Cancer and its Simulators. Journal of Investigative Dermatology. 2025.
+
+### GPT-5 assessment
+
