@@ -112,7 +112,8 @@ Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-
        No extra keys. No prose.
 * Dermoscopy plus clinical close-up
 
-       Task: classify the lesion as Malignant or Benign based on this dermoscopic image and the clinical close-up.
+       Task: classify the lesion as Malignant or Benign based on this
+             dermoscopic image and the clinical close-up.
        Return ONLY valid JSON with keys:
          pred: 'Malignant' or 'Benign'
          confidence: number from 0 to 1
@@ -120,8 +121,10 @@ Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-
 
 (2) As slight variations in prompt phrasing did not affect outcomes, we used a single prompt for top-3 differential diagnoses for simplicity for both scenarios:
 
-       You are evaluating a skin lesion based on a dermoscopic image (along with clinical close-up if provided).
-       Task: Provide an ordered Top-3 differential diagnosis list (most to least likely) for the lesion shown.
+       You are evaluating a skin lesion based on a dermoscopic image 
+           (along with clinical close-up if provided).
+       Task: Provide an ordered Top-3 differential diagnosis list 
+           (most to least likely) for the lesion shown.
 
        Return ONLY valid JSON with exactly this key:
          differential: [
