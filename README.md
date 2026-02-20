@@ -92,9 +92,46 @@ The ISIC Archive and HAM10K dataset, although widely used, predominantly contain
 
 After surveying many dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT melanoma diagnostic performance across skin tones. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
 
-        Tschandl P, Akay BN, Rosendahl C, Rotemberg V, Todorovska V, Weber J, et al. 
-        MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit for Diagnosing Pigmented 
-        and Nonpigmented Skin Cancer and its Simulators. Journal of Investigative Dermatology. 2025.
+        Tschandl P, Akay BN, Rosendahl C, Rotemberg V, et al. 
+        MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit 
+        for Diagnosing Pigmented and Nonpigmented Skin Cancer and 
+        its Simulators. Journal of Investigative Dermatology. 2025.
 
 ### GPT-5 assessment
+
+Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (a) generation of the top three differential diagnoses and (b) malignancy discrimination. We evaluated the GPT-5.2 model released in December 2025.
+
+(1) For each skin lesion, we used a zero-shot prompting approach to present the request to GPT-5.2 model via OpenAI API interface. For malignancy discrimination, below are the prompts used for two scenarios:
+
+* Dermoscopy only
+
+       Task: classify the lesion as Malignant or Benign based on this dermoscopic image.
+       Return ONLY valid JSON with keys:
+         pred: 'Malignant' or 'Benign'
+         confidence: number from 0 to 1
+       No extra keys. No prose.
+* Dermoscopy plus clinical close-up
+
+       Task: classify the lesion as Malignant or Benign based on this dermoscopic image and the clinical close-up.
+       Return ONLY valid JSON with keys:
+         pred: 'Malignant' or 'Benign'
+         confidence: number from 0 to 1
+       No extra keys. No prose.
+
+(2) As slight variations in prompt phrasing did not affect outcomes, we used a single prompt for top-3 differential diagnoses for simplicity for both scenarios:
+
+       You are evaluating a skin lesion based on a dermoscopic image (along with clinical close-up if provided).
+       Task: Provide an ordered Top-3 differential diagnosis list (most to least likely) for the lesion shown.
+
+       Return ONLY valid JSON with exactly this key:
+         differential: [
+           {"diagnosis": "...", "confidence": 0.0},
+           {"diagnosis": "...", "confidence": 0.0},
+           {"diagnosis": "...", "confidence": 0.0}
+         ]
+       Rules:
+       - Provide exactly 3 items.
+       - 'confidence' must be a number in [0,1] and non-increasing.
+       - Strict JSON only (double quotes). No extra keys. No prose. No code fences.
+
 
