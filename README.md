@@ -97,7 +97,7 @@ After surveying many dermatology image datasets, we identified <strong>Milk10K</
         for Diagnosing Pigmented and Nonpigmented Skin Cancer and 
         its Simulators. Journal of Investigative Dermatology. 2025.
 
-### GPT-5 assessment
+### GPT-5.2 assessment
 
 Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (a) generation of the top three differential diagnoses and (b) malignancy discrimination. We evaluated the GPT-5.2 model released in December 2025.
 
