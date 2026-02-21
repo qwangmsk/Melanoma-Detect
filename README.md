@@ -101,7 +101,7 @@ After surveying dermatology image datasets, we identified <strong>Milk10K</stron
 
 From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 total images. To ensure reproducibility, we provide the identifiers of the selected images in a file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
 
-### Prompting and assessment
+### Prompting
 
 Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (1) malignancy discrimination, and (2) generation of the top three differential diagnoses. The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
@@ -141,4 +141,14 @@ Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-
        - 'confidence' must be a number in [0,1] and non-increasing.
        - Strict JSON only (double quotes). No extra keys. No prose. No code fences.
 
+### Assessment
 
+The malignancy discrimination were assessed using script milk10k_malignancy_eval.py. In current version, the image folder and metadata file are hardcoded. After setting correct file paths, run the following command and GPT diagnosis results will be the automatically collected, processed, and stored in two seperate files, gpt52_milk10k_derm_only_predictions.csv and gpt52_milk10k_derm_plus_clin_predictions.csv.
+
+        python milk10k_top3_eval.py
+
+The top-three differential diagnoses of GPT-5.2 were conducted using script milk10k_top3_eval.py. Below is the command I used:
+
+        python milk10k_top3_eval.py
+
+The results of our assessment will be posted here upon acceptance of the manuscript.
