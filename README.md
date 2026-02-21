@@ -99,7 +99,7 @@ After surveying dermatology image datasets, we identified <strong>Milk10K</stron
         for Diagnosing Pigmented and Nonpigmented Skin Cancer and 
         its Simulators. Journal of Investigative Dermatology. 2025.
 
-From the Milk10K dataset, we randomly selected 92 dermoscopic images and their corresponding clinical close-up images per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 total images. To ensure reproducibility, we provide the identifiers of the selected images in a file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
+From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 total images. To ensure reproducibility, we provide the identifiers of the selected images in a file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
 
 ### Prompting and assessment
 
