@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Overall Diagnostic Performance of GPT-5
+## 1. GPT-5 diagnostic performance
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
@@ -87,7 +87,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 Performance Across Skin-Tone Subgroups
+## 2. GPT-5.2 performance across skin-tone subgroups
 
 ### Data sources
 The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing ChatGPT's robustness across diverse populations. 
