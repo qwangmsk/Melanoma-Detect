@@ -103,7 +103,7 @@ After surveying dermatology image datasets, we identified <strong>Milk10K</stron
 
 Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (1) malignancy discrimination, and (2) generation of the top three differential diagnoses. The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
-(1) For each skin lesion, we used the same zero-shot prompting approach to submit requests to the GPT-5.2 model via the OpenAI API interface. A more standardized and formal prompt format was applied to ensure consistency across evaluations. The prompts used for malignancy discrimination in the two scenarios are provided below:
+(1) For each skin lesion, we used the zero-shot prompting approach to submit requests to the GPT-5.2 model via the OpenAI API interface. A standardized and formal prompt format was applied to ensure consistency across evaluations. The prompts used for malignancy discrimination in the two scenarios are provided below:
 
 * Dermoscopy only
 
