@@ -1,0 +1,921 @@
+lesion_id,image_type,isic_id
+IL_0000652,clinical: close-up,ISIC_8149219
+IL_0000652,dermoscopic,ISIC_4671410
+IL_0004688,clinical: close-up,ISIC_0791494
+IL_0004688,dermoscopic,ISIC_3624913
+IL_0008891,clinical: close-up,ISIC_1498519
+IL_0008891,dermoscopic,ISIC_5916190
+IL_0009339,clinical: close-up,ISIC_2978483
+IL_0009339,dermoscopic,ISIC_8325963
+IL_0053198,clinical: close-up,ISIC_4030094
+IL_0053198,dermoscopic,ISIC_8463837
+IL_0081442,clinical: close-up,ISIC_8453550
+IL_0081442,dermoscopic,ISIC_7606142
+IL_0097908,clinical: close-up,ISIC_6364449
+IL_0097908,dermoscopic,ISIC_0107067
+IL_0100733,clinical: close-up,ISIC_9379796
+IL_0100733,dermoscopic,ISIC_3874242
+IL_0142779,clinical: close-up,ISIC_4783176
+IL_0142779,dermoscopic,ISIC_0881081
+IL_0286681,clinical: close-up,ISIC_6765907
+IL_0286681,dermoscopic,ISIC_0919412
+IL_0331680,clinical: close-up,ISIC_1850255
+IL_0331680,dermoscopic,ISIC_2604430
+IL_0340330,clinical: close-up,ISIC_5392764
+IL_0340330,dermoscopic,ISIC_8462138
+IL_0364539,clinical: close-up,ISIC_4655906
+IL_0364539,dermoscopic,ISIC_3782771
+IL_0375356,clinical: close-up,ISIC_0490117
+IL_0375356,dermoscopic,ISIC_4117748
+IL_0449677,clinical: close-up,ISIC_8000351
+IL_0449677,dermoscopic,ISIC_6394582
+IL_0466626,clinical: close-up,ISIC_9203716
+IL_0466626,dermoscopic,ISIC_1699010
+IL_0520171,clinical: close-up,ISIC_0949430
+IL_0520171,dermoscopic,ISIC_7469563
+IL_0549977,clinical: close-up,ISIC_7273851
+IL_0549977,dermoscopic,ISIC_4506914
+IL_0550268,clinical: close-up,ISIC_8793103
+IL_0550268,dermoscopic,ISIC_8815245
+IL_0552883,clinical: close-up,ISIC_5218432
+IL_0552883,dermoscopic,ISIC_1421371
+IL_0583979,clinical: close-up,ISIC_1221863
+IL_0583979,dermoscopic,ISIC_6420151
+IL_0596418,clinical: close-up,ISIC_0812659
+IL_0596418,dermoscopic,ISIC_9712861
+IL_0614048,clinical: close-up,ISIC_6083072
+IL_0614048,dermoscopic,ISIC_4083158
+IL_0640013,clinical: close-up,ISIC_2704661
+IL_0640013,dermoscopic,ISIC_2168892
+IL_0643729,clinical: close-up,ISIC_5435068
+IL_0643729,dermoscopic,ISIC_3328177
+IL_0653434,clinical: close-up,ISIC_3369429
+IL_0653434,dermoscopic,ISIC_3073821
+IL_0706157,clinical: close-up,ISIC_6361233
+IL_0706157,dermoscopic,ISIC_6679588
+IL_0720862,clinical: close-up,ISIC_6576845
+IL_0720862,dermoscopic,ISIC_4576379
+IL_0721578,clinical: close-up,ISIC_8324607
+IL_0721578,dermoscopic,ISIC_5830124
+IL_0770948,clinical: close-up,ISIC_3905379
+IL_0770948,dermoscopic,ISIC_5225765
+IL_0811004,clinical: close-up,ISIC_3708140
+IL_0811004,dermoscopic,ISIC_0828276
+IL_0835355,clinical: close-up,ISIC_7803895
+IL_0835355,dermoscopic,ISIC_4192230
+IL_0848948,clinical: close-up,ISIC_7926021
+IL_0848948,dermoscopic,ISIC_7876616
+IL_0930071,clinical: close-up,ISIC_9442170
+IL_0930071,dermoscopic,ISIC_5766792
+IL_0966806,clinical: close-up,ISIC_7382876
+IL_0966806,dermoscopic,ISIC_7116014
+IL_0976725,clinical: close-up,ISIC_3111434
+IL_0976725,dermoscopic,ISIC_1681382
+IL_1051456,clinical: close-up,ISIC_6483899
+IL_1051456,dermoscopic,ISIC_1567381
+IL_1062117,clinical: close-up,ISIC_5494808
+IL_1062117,dermoscopic,ISIC_7922830
+IL_1062224,clinical: close-up,ISIC_0572831
+IL_1062224,dermoscopic,ISIC_5744011
+IL_1075637,clinical: close-up,ISIC_3428379
+IL_1075637,dermoscopic,ISIC_3303065
+IL_1082732,clinical: close-up,ISIC_4759275
+IL_1082732,dermoscopic,ISIC_7516346
+IL_1087504,clinical: close-up,ISIC_6187812
+IL_1087504,dermoscopic,ISIC_1763947
+IL_1120917,clinical: close-up,ISIC_8443887
+IL_1120917,dermoscopic,ISIC_3869104
+IL_1141738,clinical: close-up,ISIC_1154405
+IL_1141738,dermoscopic,ISIC_1102101
+IL_1173774,clinical: close-up,ISIC_3295711
+IL_1173774,dermoscopic,ISIC_8389918
+IL_1178215,clinical: close-up,ISIC_1347975
+IL_1178215,dermoscopic,ISIC_6503533
+IL_1203056,clinical: close-up,ISIC_5329894
+IL_1203056,dermoscopic,ISIC_4679707
+IL_1252231,clinical: close-up,ISIC_4509507
+IL_1252231,dermoscopic,ISIC_5373218
+IL_1303481,clinical: close-up,ISIC_3460349
+IL_1303481,dermoscopic,ISIC_7388680
+IL_1348391,clinical: close-up,ISIC_9640973
+IL_1348391,dermoscopic,ISIC_9586937
+IL_1392309,clinical: close-up,ISIC_3657842
+IL_1392309,dermoscopic,ISIC_4204828
+IL_1409066,clinical: close-up,ISIC_2546414
+IL_1409066,dermoscopic,ISIC_8549775
+IL_1418796,clinical: close-up,ISIC_3265828
+IL_1418796,dermoscopic,ISIC_2645530
+IL_1439879,clinical: close-up,ISIC_0823916
+IL_1439879,dermoscopic,ISIC_8288141
+IL_1442151,clinical: close-up,ISIC_7996471
+IL_1442151,dermoscopic,ISIC_9697273
+IL_1452313,clinical: close-up,ISIC_8325885
+IL_1452313,dermoscopic,ISIC_6783253
+IL_1504921,clinical: close-up,ISIC_0813563
+IL_1504921,dermoscopic,ISIC_7063713
+IL_1539562,clinical: close-up,ISIC_0907716
+IL_1539562,dermoscopic,ISIC_0950495
+IL_1543931,clinical: close-up,ISIC_5965144
+IL_1543931,dermoscopic,ISIC_8695455
+IL_1549960,clinical: close-up,ISIC_6115571
+IL_1549960,dermoscopic,ISIC_7322599
+IL_1559121,clinical: close-up,ISIC_2281577
+IL_1559121,dermoscopic,ISIC_6365088
+IL_1647541,clinical: close-up,ISIC_5386998
+IL_1647541,dermoscopic,ISIC_4680765
+IL_1655830,clinical: close-up,ISIC_1237876
+IL_1655830,dermoscopic,ISIC_3708334
+IL_1671392,clinical: close-up,ISIC_3676848
+IL_1671392,dermoscopic,ISIC_0768895
+IL_1682958,clinical: close-up,ISIC_0786863
+IL_1682958,dermoscopic,ISIC_6221556
+IL_1693296,clinical: close-up,ISIC_2194211
+IL_1693296,dermoscopic,ISIC_4517185
+IL_1711365,clinical: close-up,ISIC_5696393
+IL_1711365,dermoscopic,ISIC_6846051
+IL_1753473,clinical: close-up,ISIC_2571592
+IL_1753473,dermoscopic,ISIC_7278433
+IL_1794572,clinical: close-up,ISIC_7627853
+IL_1794572,dermoscopic,ISIC_4346905
+IL_1801204,clinical: close-up,ISIC_8778268
+IL_1801204,dermoscopic,ISIC_1101076
+IL_1848853,clinical: close-up,ISIC_1331527
+IL_1848853,dermoscopic,ISIC_0529633
+IL_1849535,clinical: close-up,ISIC_4960789
+IL_1849535,dermoscopic,ISIC_8143135
+IL_1858842,clinical: close-up,ISIC_0091477
+IL_1858842,dermoscopic,ISIC_1708907
+IL_1861760,clinical: close-up,ISIC_7550834
+IL_1861760,dermoscopic,ISIC_3540017
+IL_1904975,clinical: close-up,ISIC_5038305
+IL_1904975,dermoscopic,ISIC_0983974
+IL_1911635,clinical: close-up,ISIC_5977035
+IL_1911635,dermoscopic,ISIC_7374719
+IL_1943704,clinical: close-up,ISIC_8417980
+IL_1943704,dermoscopic,ISIC_6924218
+IL_2058691,clinical: close-up,ISIC_3220827
+IL_2058691,dermoscopic,ISIC_6881977
+IL_2066626,clinical: close-up,ISIC_3233781
+IL_2066626,dermoscopic,ISIC_1146954
+IL_2082500,clinical: close-up,ISIC_9812459
+IL_2082500,dermoscopic,ISIC_1906798
+IL_2094234,clinical: close-up,ISIC_7162704
+IL_2094234,dermoscopic,ISIC_5566320
+IL_2101385,clinical: close-up,ISIC_8461400
+IL_2101385,dermoscopic,ISIC_5643547
+IL_2152679,clinical: close-up,ISIC_6642775
+IL_2152679,dermoscopic,ISIC_5090480
+IL_2160413,clinical: close-up,ISIC_9446110
+IL_2160413,dermoscopic,ISIC_0417486
+IL_2167276,clinical: close-up,ISIC_2496144
+IL_2167276,dermoscopic,ISIC_8495426
+IL_2185825,clinical: close-up,ISIC_3610158
+IL_2185825,dermoscopic,ISIC_8179634
+IL_2200466,clinical: close-up,ISIC_2278278
+IL_2200466,dermoscopic,ISIC_2620132
+IL_2237445,clinical: close-up,ISIC_5074726
+IL_2237445,dermoscopic,ISIC_2713587
+IL_2255727,clinical: close-up,ISIC_1118925
+IL_2255727,dermoscopic,ISIC_8403829
+IL_2273559,clinical: close-up,ISIC_4631892
+IL_2273559,dermoscopic,ISIC_5120362
+IL_2274698,clinical: close-up,ISIC_9562131
+IL_2274698,dermoscopic,ISIC_3689085
+IL_2305768,clinical: close-up,ISIC_5314299
+IL_2305768,dermoscopic,ISIC_8830091
+IL_2317693,clinical: close-up,ISIC_4618150
+IL_2317693,dermoscopic,ISIC_2119936
+IL_2359351,clinical: close-up,ISIC_2187177
+IL_2359351,dermoscopic,ISIC_9180125
+IL_2372422,clinical: close-up,ISIC_9055167
+IL_2372422,dermoscopic,ISIC_2212095
+IL_2373762,clinical: close-up,ISIC_1054751
+IL_2373762,dermoscopic,ISIC_9995425
+IL_2381875,clinical: close-up,ISIC_9360308
+IL_2381875,dermoscopic,ISIC_5728052
+IL_2397644,clinical: close-up,ISIC_0115114
+IL_2397644,dermoscopic,ISIC_4606877
+IL_2403428,clinical: close-up,ISIC_7534938
+IL_2403428,dermoscopic,ISIC_7883260
+IL_2415353,clinical: close-up,ISIC_0874081
+IL_2415353,dermoscopic,ISIC_8281265
+IL_2423269,clinical: close-up,ISIC_2514435
+IL_2423269,dermoscopic,ISIC_6949754
+IL_2448175,clinical: close-up,ISIC_1610084
+IL_2448175,dermoscopic,ISIC_7139452
+IL_2450651,clinical: close-up,ISIC_1425517
+IL_2450651,dermoscopic,ISIC_3431903
+IL_2461087,clinical: close-up,ISIC_0367096
+IL_2461087,dermoscopic,ISIC_1284470
+IL_2467466,clinical: close-up,ISIC_8978224
+IL_2467466,dermoscopic,ISIC_4243113
+IL_2473158,clinical: close-up,ISIC_5796545
+IL_2473158,dermoscopic,ISIC_5235518
+IL_2491792,clinical: close-up,ISIC_4397628
+IL_2491792,dermoscopic,ISIC_0823269
+IL_2493463,clinical: close-up,ISIC_9102029
+IL_2493463,dermoscopic,ISIC_9547255
+IL_2503315,clinical: close-up,ISIC_5168814
+IL_2503315,dermoscopic,ISIC_2222084
+IL_2528819,clinical: close-up,ISIC_3991986
+IL_2528819,dermoscopic,ISIC_6853529
+IL_2533791,clinical: close-up,ISIC_4230532
+IL_2533791,dermoscopic,ISIC_8603749
+IL_2623248,clinical: close-up,ISIC_3327085
+IL_2623248,dermoscopic,ISIC_1020628
+IL_2660318,clinical: close-up,ISIC_9312353
+IL_2660318,dermoscopic,ISIC_3039744
+IL_2662922,clinical: close-up,ISIC_9149555
+IL_2662922,dermoscopic,ISIC_7464537
+IL_2714840,clinical: close-up,ISIC_2869678
+IL_2714840,dermoscopic,ISIC_2907780
+IL_2719236,clinical: close-up,ISIC_2801800
+IL_2719236,dermoscopic,ISIC_7082726
+IL_2729138,clinical: close-up,ISIC_5408628
+IL_2729138,dermoscopic,ISIC_1261731
+IL_2730356,clinical: close-up,ISIC_0316259
+IL_2730356,dermoscopic,ISIC_7989453
+IL_2742965,clinical: close-up,ISIC_1845748
+IL_2742965,dermoscopic,ISIC_7719129
+IL_2750081,clinical: close-up,ISIC_6855467
+IL_2750081,dermoscopic,ISIC_9945084
+IL_2751671,clinical: close-up,ISIC_6059802
+IL_2751671,dermoscopic,ISIC_5501232
+IL_2771122,clinical: close-up,ISIC_1332174
+IL_2771122,dermoscopic,ISIC_0178503
+IL_2779245,clinical: close-up,ISIC_7112529
+IL_2779245,dermoscopic,ISIC_9766600
+IL_2821734,clinical: close-up,ISIC_0376743
+IL_2821734,dermoscopic,ISIC_0835458
+IL_2833309,clinical: close-up,ISIC_6606816
+IL_2833309,dermoscopic,ISIC_2335013
+IL_2854884,clinical: close-up,ISIC_4214316
+IL_2854884,dermoscopic,ISIC_2471885
+IL_2880261,clinical: close-up,ISIC_2299814
+IL_2880261,dermoscopic,ISIC_9562051
+IL_2921214,clinical: close-up,ISIC_2525661
+IL_2921214,dermoscopic,ISIC_7555988
+IL_2972569,clinical: close-up,ISIC_6142928
+IL_2972569,dermoscopic,ISIC_9719634
+IL_2974900,clinical: close-up,ISIC_3208971
+IL_2974900,dermoscopic,ISIC_5511950
+IL_3009838,clinical: close-up,ISIC_4330244
+IL_3009838,dermoscopic,ISIC_4038238
+IL_3035506,clinical: close-up,ISIC_2292844
+IL_3035506,dermoscopic,ISIC_6383216
+IL_3058425,clinical: close-up,ISIC_9061574
+IL_3058425,dermoscopic,ISIC_8912166
+IL_3087558,clinical: close-up,ISIC_0391361
+IL_3087558,dermoscopic,ISIC_0895262
+IL_3090203,clinical: close-up,ISIC_4079070
+IL_3090203,dermoscopic,ISIC_3085694
+IL_3102768,clinical: close-up,ISIC_1631867
+IL_3102768,dermoscopic,ISIC_6909525
+IL_3144170,clinical: close-up,ISIC_6905596
+IL_3144170,dermoscopic,ISIC_9966733
+IL_3157570,clinical: close-up,ISIC_0373147
+IL_3157570,dermoscopic,ISIC_1940214
+IL_3186878,clinical: close-up,ISIC_5933216
+IL_3186878,dermoscopic,ISIC_3267363
+IL_3205547,clinical: close-up,ISIC_8894733
+IL_3205547,dermoscopic,ISIC_3794620
+IL_3237726,clinical: close-up,ISIC_3002615
+IL_3237726,dermoscopic,ISIC_8977223
+IL_3295356,clinical: close-up,ISIC_6984699
+IL_3295356,dermoscopic,ISIC_8754259
+IL_3327660,clinical: close-up,ISIC_0379615
+IL_3327660,dermoscopic,ISIC_7692882
+IL_3339470,clinical: close-up,ISIC_2041668
+IL_3339470,dermoscopic,ISIC_9170556
+IL_3347593,clinical: close-up,ISIC_4176987
+IL_3347593,dermoscopic,ISIC_3658823
+IL_3358821,clinical: close-up,ISIC_2963181
+IL_3358821,dermoscopic,ISIC_8102692
+IL_3377032,clinical: close-up,ISIC_4930751
+IL_3377032,dermoscopic,ISIC_0896718
+IL_3423821,clinical: close-up,ISIC_9625234
+IL_3423821,dermoscopic,ISIC_7201198
+IL_3423886,clinical: close-up,ISIC_9726153
+IL_3423886,dermoscopic,ISIC_8945348
+IL_3424617,clinical: close-up,ISIC_4850035
+IL_3424617,dermoscopic,ISIC_3191687
+IL_3435246,clinical: close-up,ISIC_8379217
+IL_3435246,dermoscopic,ISIC_9144877
+IL_3439844,clinical: close-up,ISIC_8302244
+IL_3439844,dermoscopic,ISIC_1342857
+IL_3460639,clinical: close-up,ISIC_1645642
+IL_3460639,dermoscopic,ISIC_0991616
+IL_3472941,clinical: close-up,ISIC_0951585
+IL_3472941,dermoscopic,ISIC_1958859
+IL_3478761,clinical: close-up,ISIC_2467581
+IL_3478761,dermoscopic,ISIC_4061154
+IL_3503825,clinical: close-up,ISIC_3244506
+IL_3503825,dermoscopic,ISIC_3587674
+IL_3528206,clinical: close-up,ISIC_1656419
+IL_3528206,dermoscopic,ISIC_2721277
+IL_3529988,clinical: close-up,ISIC_6222747
+IL_3529988,dermoscopic,ISIC_9399207
+IL_3560124,clinical: close-up,ISIC_3765070
+IL_3560124,dermoscopic,ISIC_7841088
+IL_3561998,clinical: close-up,ISIC_6700837
+IL_3561998,dermoscopic,ISIC_8041130
+IL_3582331,clinical: close-up,ISIC_5511326
+IL_3582331,dermoscopic,ISIC_7808755
+IL_3615329,clinical: close-up,ISIC_4973067
+IL_3615329,dermoscopic,ISIC_6952812
+IL_3644739,clinical: close-up,ISIC_1568395
+IL_3644739,dermoscopic,ISIC_2861892
+IL_3647714,clinical: close-up,ISIC_5659142
+IL_3647714,dermoscopic,ISIC_9875968
+IL_3668497,clinical: close-up,ISIC_3316082
+IL_3668497,dermoscopic,ISIC_2498820
+IL_3673925,clinical: close-up,ISIC_1171609
+IL_3673925,dermoscopic,ISIC_6898183
+IL_3677701,clinical: close-up,ISIC_5846378
+IL_3677701,dermoscopic,ISIC_4310441
+IL_3709940,clinical: close-up,ISIC_0870426
+IL_3709940,dermoscopic,ISIC_1151059
+IL_3715048,clinical: close-up,ISIC_7143311
+IL_3715048,dermoscopic,ISIC_0831898
+IL_3721335,clinical: close-up,ISIC_1679242
+IL_3721335,dermoscopic,ISIC_7812484
+IL_3758712,clinical: close-up,ISIC_6278796
+IL_3758712,dermoscopic,ISIC_2441019
+IL_3770255,clinical: close-up,ISIC_1240854
+IL_3770255,dermoscopic,ISIC_1538553
+IL_3772647,clinical: close-up,ISIC_5671011
+IL_3772647,dermoscopic,ISIC_1028789
+IL_3807651,clinical: close-up,ISIC_9596637
+IL_3807651,dermoscopic,ISIC_6875256
+IL_3845206,clinical: close-up,ISIC_4590231
+IL_3845206,dermoscopic,ISIC_4120304
+IL_3847585,clinical: close-up,ISIC_2626121
+IL_3847585,dermoscopic,ISIC_1739633
+IL_3857258,clinical: close-up,ISIC_3596200
+IL_3857258,dermoscopic,ISIC_6705073
+IL_3888766,clinical: close-up,ISIC_9848425
+IL_3888766,dermoscopic,ISIC_7752452
+IL_3939188,clinical: close-up,ISIC_1255346
+IL_3939188,dermoscopic,ISIC_5084963
+IL_3944877,clinical: close-up,ISIC_5345557
+IL_3944877,dermoscopic,ISIC_6252730
+IL_3948113,clinical: close-up,ISIC_8458699
+IL_3948113,dermoscopic,ISIC_1909868
+IL_3968220,clinical: close-up,ISIC_2239440
+IL_3968220,dermoscopic,ISIC_1362408
+IL_3976395,clinical: close-up,ISIC_8495209
+IL_3976395,dermoscopic,ISIC_2231864
+IL_3990858,clinical: close-up,ISIC_8649825
+IL_3990858,dermoscopic,ISIC_9474028
+IL_3991500,clinical: close-up,ISIC_4524898
+IL_3991500,dermoscopic,ISIC_4785619
+IL_4051895,clinical: close-up,ISIC_0746280
+IL_4051895,dermoscopic,ISIC_6400148
+IL_4131392,clinical: close-up,ISIC_2944503
+IL_4131392,dermoscopic,ISIC_8701104
+IL_4131628,clinical: close-up,ISIC_3617005
+IL_4131628,dermoscopic,ISIC_4954192
+IL_4149051,clinical: close-up,ISIC_1063241
+IL_4149051,dermoscopic,ISIC_3088033
+IL_4175497,clinical: close-up,ISIC_5006126
+IL_4175497,dermoscopic,ISIC_7803268
+IL_4185441,clinical: close-up,ISIC_4123254
+IL_4185441,dermoscopic,ISIC_6467453
+IL_4186726,clinical: close-up,ISIC_1476780
+IL_4186726,dermoscopic,ISIC_3727735
+IL_4196586,clinical: close-up,ISIC_3190111
+IL_4196586,dermoscopic,ISIC_2467349
+IL_4258964,clinical: close-up,ISIC_1552944
+IL_4258964,dermoscopic,ISIC_0368345
+IL_4263582,clinical: close-up,ISIC_3148432
+IL_4263582,dermoscopic,ISIC_9861310
+IL_4310932,clinical: close-up,ISIC_1431170
+IL_4310932,dermoscopic,ISIC_0962054
+IL_4325075,clinical: close-up,ISIC_2307999
+IL_4325075,dermoscopic,ISIC_6527571
+IL_4340050,clinical: close-up,ISIC_6588483
+IL_4340050,dermoscopic,ISIC_0408436
+IL_4347033,clinical: close-up,ISIC_8117883
+IL_4347033,dermoscopic,ISIC_7230569
+IL_4355798,clinical: close-up,ISIC_7435897
+IL_4355798,dermoscopic,ISIC_1866476
+IL_4391633,clinical: close-up,ISIC_4382908
+IL_4391633,dermoscopic,ISIC_8800271
+IL_4400471,clinical: close-up,ISIC_0561480
+IL_4400471,dermoscopic,ISIC_3455310
+IL_4407771,clinical: close-up,ISIC_0991005
+IL_4407771,dermoscopic,ISIC_5304804
+IL_4414244,clinical: close-up,ISIC_7903629
+IL_4414244,dermoscopic,ISIC_9180642
+IL_4419075,clinical: close-up,ISIC_4797048
+IL_4419075,dermoscopic,ISIC_1800713
+IL_4430072,clinical: close-up,ISIC_7077927
+IL_4430072,dermoscopic,ISIC_4896910
+IL_4456737,clinical: close-up,ISIC_8408499
+IL_4456737,dermoscopic,ISIC_0508714
+IL_4470686,clinical: close-up,ISIC_7817656
+IL_4470686,dermoscopic,ISIC_2090929
+IL_4491855,clinical: close-up,ISIC_9614715
+IL_4491855,dermoscopic,ISIC_8177696
+IL_4498199,clinical: close-up,ISIC_6428825
+IL_4498199,dermoscopic,ISIC_9174580
+IL_4514028,clinical: close-up,ISIC_8670753
+IL_4514028,dermoscopic,ISIC_0489440
+IL_4528445,clinical: close-up,ISIC_3427742
+IL_4528445,dermoscopic,ISIC_1748084
+IL_4563820,clinical: close-up,ISIC_8484419
+IL_4563820,dermoscopic,ISIC_4091460
+IL_4564501,clinical: close-up,ISIC_2639604
+IL_4564501,dermoscopic,ISIC_3825515
+IL_4581879,clinical: close-up,ISIC_4071197
+IL_4581879,dermoscopic,ISIC_3173642
+IL_4600654,clinical: close-up,ISIC_5585397
+IL_4600654,dermoscopic,ISIC_3729865
+IL_4618514,clinical: close-up,ISIC_3059704
+IL_4618514,dermoscopic,ISIC_2812513
+IL_4644252,clinical: close-up,ISIC_7140233
+IL_4644252,dermoscopic,ISIC_3033732
+IL_4663094,clinical: close-up,ISIC_9560662
+IL_4663094,dermoscopic,ISIC_0613695
+IL_4689658,clinical: close-up,ISIC_9392128
+IL_4689658,dermoscopic,ISIC_1070964
+IL_4696609,clinical: close-up,ISIC_0216815
+IL_4696609,dermoscopic,ISIC_7146069
+IL_4756008,clinical: close-up,ISIC_0370740
+IL_4756008,dermoscopic,ISIC_2686432
+IL_4757654,clinical: close-up,ISIC_7300115
+IL_4757654,dermoscopic,ISIC_7144571
+IL_4781957,clinical: close-up,ISIC_2064223
+IL_4781957,dermoscopic,ISIC_0591696
+IL_4791300,clinical: close-up,ISIC_7100195
+IL_4791300,dermoscopic,ISIC_5763228
+IL_4794803,clinical: close-up,ISIC_5632079
+IL_4794803,dermoscopic,ISIC_2754845
+IL_4829953,clinical: close-up,ISIC_5030554
+IL_4829953,dermoscopic,ISIC_5350988
+IL_4845726,clinical: close-up,ISIC_8108965
+IL_4845726,dermoscopic,ISIC_3999304
+IL_4879844,clinical: close-up,ISIC_0489493
+IL_4879844,dermoscopic,ISIC_5962932
+IL_4913494,clinical: close-up,ISIC_3355310
+IL_4913494,dermoscopic,ISIC_5543919
+IL_4928087,clinical: close-up,ISIC_5874977
+IL_4928087,dermoscopic,ISIC_5010590
+IL_4933639,clinical: close-up,ISIC_9810739
+IL_4933639,dermoscopic,ISIC_6125353
+IL_4939300,clinical: close-up,ISIC_2451051
+IL_4939300,dermoscopic,ISIC_5833579
+IL_4954108,clinical: close-up,ISIC_2025477
+IL_4954108,dermoscopic,ISIC_6691035
+IL_4974594,clinical: close-up,ISIC_3672764
+IL_4974594,dermoscopic,ISIC_9912332
+IL_4987337,clinical: close-up,ISIC_9061787
+IL_4987337,dermoscopic,ISIC_3703123
+IL_5017346,clinical: close-up,ISIC_7590490
+IL_5017346,dermoscopic,ISIC_6044458
+IL_5037876,clinical: close-up,ISIC_6027594
+IL_5037876,dermoscopic,ISIC_8744116
+IL_5066256,clinical: close-up,ISIC_1306180
+IL_5066256,dermoscopic,ISIC_4025658
+IL_5071813,clinical: close-up,ISIC_1199576
+IL_5071813,dermoscopic,ISIC_9400307
+IL_5111323,clinical: close-up,ISIC_5416645
+IL_5111323,dermoscopic,ISIC_7402642
+IL_5133299,clinical: close-up,ISIC_4083123
+IL_5133299,dermoscopic,ISIC_4277953
+IL_5217084,clinical: close-up,ISIC_2557089
+IL_5217084,dermoscopic,ISIC_0939687
+IL_5236247,clinical: close-up,ISIC_5261867
+IL_5236247,dermoscopic,ISIC_1822355
+IL_5241211,clinical: close-up,ISIC_9932307
+IL_5241211,dermoscopic,ISIC_9267602
+IL_5289239,clinical: close-up,ISIC_3892467
+IL_5289239,dermoscopic,ISIC_6989179
+IL_5293525,clinical: close-up,ISIC_7155489
+IL_5293525,dermoscopic,ISIC_1789556
+IL_5310300,clinical: close-up,ISIC_5729101
+IL_5310300,dermoscopic,ISIC_0080219
+IL_5328388,clinical: close-up,ISIC_0220749
+IL_5328388,dermoscopic,ISIC_3445025
+IL_5349744,clinical: close-up,ISIC_6368553
+IL_5349744,dermoscopic,ISIC_8534089
+IL_5352548,clinical: close-up,ISIC_9079428
+IL_5352548,dermoscopic,ISIC_6935679
+IL_5366190,clinical: close-up,ISIC_6013907
+IL_5366190,dermoscopic,ISIC_1675975
+IL_5437959,clinical: close-up,ISIC_2301560
+IL_5437959,dermoscopic,ISIC_1803069
+IL_5466304,clinical: close-up,ISIC_2150126
+IL_5466304,dermoscopic,ISIC_2181594
+IL_5504376,clinical: close-up,ISIC_2304487
+IL_5504376,dermoscopic,ISIC_9276715
+IL_5575063,clinical: close-up,ISIC_5060422
+IL_5575063,dermoscopic,ISIC_1603122
+IL_5575734,clinical: close-up,ISIC_6444803
+IL_5575734,dermoscopic,ISIC_9737054
+IL_5614486,clinical: close-up,ISIC_1727258
+IL_5614486,dermoscopic,ISIC_2740604
+IL_5672522,clinical: close-up,ISIC_3436899
+IL_5672522,dermoscopic,ISIC_5142210
+IL_5727849,clinical: close-up,ISIC_5455211
+IL_5727849,dermoscopic,ISIC_9536932
+IL_5766493,clinical: close-up,ISIC_5660758
+IL_5766493,dermoscopic,ISIC_2122841
+IL_5767308,clinical: close-up,ISIC_0352367
+IL_5767308,dermoscopic,ISIC_8858676
+IL_5814206,clinical: close-up,ISIC_5985462
+IL_5814206,dermoscopic,ISIC_7619664
+IL_5844745,clinical: close-up,ISIC_1849076
+IL_5844745,dermoscopic,ISIC_7682533
+IL_5858663,clinical: close-up,ISIC_4017835
+IL_5858663,dermoscopic,ISIC_6022197
+IL_5914745,clinical: close-up,ISIC_8112445
+IL_5914745,dermoscopic,ISIC_4275923
+IL_5916541,clinical: close-up,ISIC_8810193
+IL_5916541,dermoscopic,ISIC_7472087
+IL_5930437,clinical: close-up,ISIC_8202730
+IL_5930437,dermoscopic,ISIC_2106139
+IL_5945369,clinical: close-up,ISIC_9365835
+IL_5945369,dermoscopic,ISIC_9945188
+IL_5947209,clinical: close-up,ISIC_3952676
+IL_5947209,dermoscopic,ISIC_1906835
+IL_5961668,clinical: close-up,ISIC_3045023
+IL_5961668,dermoscopic,ISIC_4198312
+IL_6004102,clinical: close-up,ISIC_9670100
+IL_6004102,dermoscopic,ISIC_2631859
+IL_6004998,clinical: close-up,ISIC_0307003
+IL_6004998,dermoscopic,ISIC_2888616
+IL_6005068,clinical: close-up,ISIC_5399582
+IL_6005068,dermoscopic,ISIC_7441024
+IL_6033617,clinical: close-up,ISIC_8188045
+IL_6033617,dermoscopic,ISIC_1076265
+IL_6066960,clinical: close-up,ISIC_5059174
+IL_6066960,dermoscopic,ISIC_0560810
+IL_6083019,clinical: close-up,ISIC_8073921
+IL_6083019,dermoscopic,ISIC_9406973
+IL_6106772,clinical: close-up,ISIC_1219741
+IL_6106772,dermoscopic,ISIC_4257866
+IL_6113513,clinical: close-up,ISIC_5349810
+IL_6113513,dermoscopic,ISIC_6806266
+IL_6163368,clinical: close-up,ISIC_0372945
+IL_6163368,dermoscopic,ISIC_9007301
+IL_6242264,clinical: close-up,ISIC_7075127
+IL_6242264,dermoscopic,ISIC_2567274
+IL_6291533,clinical: close-up,ISIC_4430642
+IL_6291533,dermoscopic,ISIC_3486312
+IL_6305050,clinical: close-up,ISIC_2164186
+IL_6305050,dermoscopic,ISIC_7436110
+IL_6344914,clinical: close-up,ISIC_0543368
+IL_6344914,dermoscopic,ISIC_3772519
+IL_6410644,clinical: close-up,ISIC_7097983
+IL_6410644,dermoscopic,ISIC_7632373
+IL_6425993,clinical: close-up,ISIC_7961554
+IL_6425993,dermoscopic,ISIC_3168018
+IL_6427122,clinical: close-up,ISIC_0488771
+IL_6427122,dermoscopic,ISIC_2162606
+IL_6430052,clinical: close-up,ISIC_1089519
+IL_6430052,dermoscopic,ISIC_5186218
+IL_6464483,clinical: close-up,ISIC_9129838
+IL_6464483,dermoscopic,ISIC_6358504
+IL_6466353,clinical: close-up,ISIC_4666384
+IL_6466353,dermoscopic,ISIC_0392480
+IL_6528772,clinical: close-up,ISIC_1733540
+IL_6528772,dermoscopic,ISIC_1828562
+IL_6558411,clinical: close-up,ISIC_0424515
+IL_6558411,dermoscopic,ISIC_8939939
+IL_6585247,clinical: close-up,ISIC_9720285
+IL_6585247,dermoscopic,ISIC_3302093
+IL_6587096,clinical: close-up,ISIC_3164080
+IL_6587096,dermoscopic,ISIC_0603818
+IL_6594915,clinical: close-up,ISIC_7391184
+IL_6594915,dermoscopic,ISIC_4237744
+IL_6607832,clinical: close-up,ISIC_8680621
+IL_6607832,dermoscopic,ISIC_9171793
+IL_6618073,clinical: close-up,ISIC_8038275
+IL_6618073,dermoscopic,ISIC_4503581
+IL_6638180,clinical: close-up,ISIC_8171205
+IL_6638180,dermoscopic,ISIC_6508531
+IL_6655417,clinical: close-up,ISIC_0329283
+IL_6655417,dermoscopic,ISIC_1831934
+IL_6657702,clinical: close-up,ISIC_0258020
+IL_6657702,dermoscopic,ISIC_5068413
+IL_6660376,clinical: close-up,ISIC_3931844
+IL_6660376,dermoscopic,ISIC_8026822
+IL_6673700,clinical: close-up,ISIC_0121050
+IL_6673700,dermoscopic,ISIC_5171808
+IL_6753634,clinical: close-up,ISIC_0230558
+IL_6753634,dermoscopic,ISIC_9290748
+IL_6816964,clinical: close-up,ISIC_4735270
+IL_6816964,dermoscopic,ISIC_9497415
+IL_6831423,clinical: close-up,ISIC_3033593
+IL_6831423,dermoscopic,ISIC_5602759
+IL_6850540,clinical: close-up,ISIC_3072984
+IL_6850540,dermoscopic,ISIC_1992710
+IL_6862607,clinical: close-up,ISIC_8044922
+IL_6862607,dermoscopic,ISIC_7143359
+IL_6877594,clinical: close-up,ISIC_6786577
+IL_6877594,dermoscopic,ISIC_9179884
+IL_6889294,clinical: close-up,ISIC_1249178
+IL_6889294,dermoscopic,ISIC_6773668
+IL_6910887,clinical: close-up,ISIC_0497671
+IL_6910887,dermoscopic,ISIC_8657483
+IL_6920562,clinical: close-up,ISIC_2909896
+IL_6920562,dermoscopic,ISIC_8759947
+IL_6921814,clinical: close-up,ISIC_3645026
+IL_6921814,dermoscopic,ISIC_0939581
+IL_6982257,clinical: close-up,ISIC_2313224
+IL_6982257,dermoscopic,ISIC_7889425
+IL_7059623,clinical: close-up,ISIC_8349907
+IL_7059623,dermoscopic,ISIC_9153724
+IL_7137624,clinical: close-up,ISIC_1119141
+IL_7137624,dermoscopic,ISIC_6932845
+IL_7144691,clinical: close-up,ISIC_5992256
+IL_7144691,dermoscopic,ISIC_5901264
+IL_7145393,clinical: close-up,ISIC_9562167
+IL_7145393,dermoscopic,ISIC_8815594
+IL_7167860,clinical: close-up,ISIC_9312951
+IL_7167860,dermoscopic,ISIC_3602145
+IL_7168991,clinical: close-up,ISIC_5871089
+IL_7168991,dermoscopic,ISIC_4597469
+IL_7193768,clinical: close-up,ISIC_4491147
+IL_7193768,dermoscopic,ISIC_5767646
+IL_7198144,clinical: close-up,ISIC_7957331
+IL_7198144,dermoscopic,ISIC_4080973
+IL_7210800,clinical: close-up,ISIC_5706903
+IL_7210800,dermoscopic,ISIC_6048752
+IL_7210952,clinical: close-up,ISIC_0855130
+IL_7210952,dermoscopic,ISIC_7116804
+IL_7212919,clinical: close-up,ISIC_8556689
+IL_7212919,dermoscopic,ISIC_8344146
+IL_7217453,clinical: close-up,ISIC_3672834
+IL_7217453,dermoscopic,ISIC_7391014
+IL_7229080,clinical: close-up,ISIC_5110194
+IL_7229080,dermoscopic,ISIC_8508207
+IL_7242208,clinical: close-up,ISIC_3252878
+IL_7242208,dermoscopic,ISIC_9526087
+IL_7252139,clinical: close-up,ISIC_3159993
+IL_7252139,dermoscopic,ISIC_1607224
+IL_7253119,clinical: close-up,ISIC_2447346
+IL_7253119,dermoscopic,ISIC_7383339
+IL_7319157,clinical: close-up,ISIC_6679416
+IL_7319157,dermoscopic,ISIC_2020122
+IL_7320172,clinical: close-up,ISIC_1359419
+IL_7320172,dermoscopic,ISIC_4282860
+IL_7358979,clinical: close-up,ISIC_1958652
+IL_7358979,dermoscopic,ISIC_0951274
+IL_7372717,clinical: close-up,ISIC_7767475
+IL_7372717,dermoscopic,ISIC_8352723
+IL_7390451,clinical: close-up,ISIC_8745622
+IL_7390451,dermoscopic,ISIC_7372306
+IL_7397466,clinical: close-up,ISIC_7626679
+IL_7397466,dermoscopic,ISIC_9759173
+IL_7406040,clinical: close-up,ISIC_9127714
+IL_7406040,dermoscopic,ISIC_2578355
+IL_7431688,clinical: close-up,ISIC_6888436
+IL_7431688,dermoscopic,ISIC_4075850
+IL_7465840,clinical: close-up,ISIC_9107881
+IL_7465840,dermoscopic,ISIC_1855151
+IL_7537645,clinical: close-up,ISIC_4532622
+IL_7537645,dermoscopic,ISIC_3223440
+IL_7628990,clinical: close-up,ISIC_7449425
+IL_7628990,dermoscopic,ISIC_8731413
+IL_7643316,clinical: close-up,ISIC_6862838
+IL_7643316,dermoscopic,ISIC_4254772
+IL_7648994,clinical: close-up,ISIC_8851382
+IL_7648994,dermoscopic,ISIC_8268192
+IL_7653541,clinical: close-up,ISIC_5305591
+IL_7653541,dermoscopic,ISIC_5819591
+IL_7657935,clinical: close-up,ISIC_3743625
+IL_7657935,dermoscopic,ISIC_1464557
+IL_7678083,clinical: close-up,ISIC_0590248
+IL_7678083,dermoscopic,ISIC_3906512
+IL_7699811,clinical: close-up,ISIC_7430438
+IL_7699811,dermoscopic,ISIC_8032507
+IL_7708257,clinical: close-up,ISIC_6350988
+IL_7708257,dermoscopic,ISIC_1344355
+IL_7712318,clinical: close-up,ISIC_6620223
+IL_7712318,dermoscopic,ISIC_0811266
+IL_7749635,clinical: close-up,ISIC_9058731
+IL_7749635,dermoscopic,ISIC_8738126
+IL_7759035,clinical: close-up,ISIC_3719395
+IL_7759035,dermoscopic,ISIC_7003219
+IL_7798447,clinical: close-up,ISIC_4021072
+IL_7798447,dermoscopic,ISIC_5795871
+IL_7803371,clinical: close-up,ISIC_9198253
+IL_7803371,dermoscopic,ISIC_5584967
+IL_7820661,clinical: close-up,ISIC_9098536
+IL_7820661,dermoscopic,ISIC_0184224
+IL_7825676,clinical: close-up,ISIC_3248460
+IL_7825676,dermoscopic,ISIC_7381608
+IL_7853523,clinical: close-up,ISIC_6934066
+IL_7853523,dermoscopic,ISIC_0575130
+IL_7885027,clinical: close-up,ISIC_8292731
+IL_7885027,dermoscopic,ISIC_6486784
+IL_7885037,clinical: close-up,ISIC_2458475
+IL_7885037,dermoscopic,ISIC_8774868
+IL_7917895,clinical: close-up,ISIC_0703597
+IL_7917895,dermoscopic,ISIC_6545294
+IL_7928790,clinical: close-up,ISIC_4034716
+IL_7928790,dermoscopic,ISIC_2731321
+IL_7950923,clinical: close-up,ISIC_5156331
+IL_7950923,dermoscopic,ISIC_4827917
+IL_7970033,clinical: close-up,ISIC_2153022
+IL_7970033,dermoscopic,ISIC_1597659
+IL_7972003,clinical: close-up,ISIC_4752546
+IL_7972003,dermoscopic,ISIC_9710909
+IL_7985046,clinical: close-up,ISIC_9890732
+IL_7985046,dermoscopic,ISIC_1276558
+IL_7998645,clinical: close-up,ISIC_4712387
+IL_7998645,dermoscopic,ISIC_8223761
+IL_8012977,clinical: close-up,ISIC_5479076
+IL_8012977,dermoscopic,ISIC_1136498
+IL_8026752,clinical: close-up,ISIC_1672301
+IL_8026752,dermoscopic,ISIC_8314749
+IL_8028208,clinical: close-up,ISIC_8012183
+IL_8028208,dermoscopic,ISIC_3011551
+IL_8063074,clinical: close-up,ISIC_9100704
+IL_8063074,dermoscopic,ISIC_1482636
+IL_8089688,clinical: close-up,ISIC_6465943
+IL_8089688,dermoscopic,ISIC_0076255
+IL_8093153,clinical: close-up,ISIC_3198901
+IL_8093153,dermoscopic,ISIC_1305247
+IL_8124178,clinical: close-up,ISIC_2489023
+IL_8124178,dermoscopic,ISIC_5380715
+IL_8124925,clinical: close-up,ISIC_2184033
+IL_8124925,dermoscopic,ISIC_9483103
+IL_8129688,clinical: close-up,ISIC_1566328
+IL_8129688,dermoscopic,ISIC_4347789
+IL_8160690,clinical: close-up,ISIC_5722425
+IL_8160690,dermoscopic,ISIC_6038731
+IL_8165717,clinical: close-up,ISIC_5246163
+IL_8165717,dermoscopic,ISIC_3685267
+IL_8166826,clinical: close-up,ISIC_9546496
+IL_8166826,dermoscopic,ISIC_0416055
+IL_8175900,clinical: close-up,ISIC_9078579
+IL_8175900,dermoscopic,ISIC_1212608
+IL_8194145,clinical: close-up,ISIC_1442874
+IL_8194145,dermoscopic,ISIC_9541448
+IL_8194852,clinical: close-up,ISIC_8563004
+IL_8194852,dermoscopic,ISIC_2161394
+IL_8233032,clinical: close-up,ISIC_3456765
+IL_8233032,dermoscopic,ISIC_0528832
+IL_8256176,clinical: close-up,ISIC_9225788
+IL_8256176,dermoscopic,ISIC_9147502
+IL_8258563,clinical: close-up,ISIC_2346672
+IL_8258563,dermoscopic,ISIC_8472745
+IL_8264296,clinical: close-up,ISIC_6629742
+IL_8264296,dermoscopic,ISIC_5998955
+IL_8280517,clinical: close-up,ISIC_1659815
+IL_8280517,dermoscopic,ISIC_4951972
+IL_8280553,clinical: close-up,ISIC_1134411
+IL_8280553,dermoscopic,ISIC_7343701
+IL_8323588,clinical: close-up,ISIC_9574838
+IL_8323588,dermoscopic,ISIC_0289881
+IL_8331769,clinical: close-up,ISIC_6942468
+IL_8331769,dermoscopic,ISIC_5380664
+IL_8338996,clinical: close-up,ISIC_4590345
+IL_8338996,dermoscopic,ISIC_9148837
+IL_8359695,clinical: close-up,ISIC_0981634
+IL_8359695,dermoscopic,ISIC_6378396
+IL_8370192,clinical: close-up,ISIC_3532575
+IL_8370192,dermoscopic,ISIC_8226322
+IL_8374443,clinical: close-up,ISIC_4342648
+IL_8374443,dermoscopic,ISIC_4597054
+IL_8386286,clinical: close-up,ISIC_5701696
+IL_8386286,dermoscopic,ISIC_8263244
+IL_8401362,clinical: close-up,ISIC_7434803
+IL_8401362,dermoscopic,ISIC_2925746
+IL_8461423,clinical: close-up,ISIC_4845673
+IL_8461423,dermoscopic,ISIC_5493908
+IL_8482913,clinical: close-up,ISIC_7029585
+IL_8482913,dermoscopic,ISIC_0920424
+IL_8507702,clinical: close-up,ISIC_4639978
+IL_8507702,dermoscopic,ISIC_7241294
+IL_8535894,clinical: close-up,ISIC_8638964
+IL_8535894,dermoscopic,ISIC_9777954
+IL_8540879,clinical: close-up,ISIC_7888608
+IL_8540879,dermoscopic,ISIC_7987908
+IL_8557195,clinical: close-up,ISIC_4237789
+IL_8557195,dermoscopic,ISIC_4923934
+IL_8574394,clinical: close-up,ISIC_3191236
+IL_8574394,dermoscopic,ISIC_3539795
+IL_8602598,clinical: close-up,ISIC_2964593
+IL_8602598,dermoscopic,ISIC_1073412
+IL_8604901,clinical: close-up,ISIC_7435742
+IL_8604901,dermoscopic,ISIC_8090800
+IL_8606392,clinical: close-up,ISIC_7017469
+IL_8606392,dermoscopic,ISIC_4235697
+IL_8610456,clinical: close-up,ISIC_9974916
+IL_8610456,dermoscopic,ISIC_5070126
+IL_8662506,clinical: close-up,ISIC_1236473
+IL_8662506,dermoscopic,ISIC_2320042
+IL_8684310,clinical: close-up,ISIC_2818434
+IL_8684310,dermoscopic,ISIC_1967830
+IL_8703940,clinical: close-up,ISIC_7145117
+IL_8703940,dermoscopic,ISIC_0116442
+IL_8735984,clinical: close-up,ISIC_5076582
+IL_8735984,dermoscopic,ISIC_3545744
+IL_8805142,clinical: close-up,ISIC_2891861
+IL_8805142,dermoscopic,ISIC_4602849
+IL_8813361,clinical: close-up,ISIC_7381318
+IL_8813361,dermoscopic,ISIC_3122081
+IL_8814250,clinical: close-up,ISIC_1943932
+IL_8814250,dermoscopic,ISIC_2240759
+IL_8819924,clinical: close-up,ISIC_0250211
+IL_8819924,dermoscopic,ISIC_9281043
+IL_8834020,clinical: close-up,ISIC_7878572
+IL_8834020,dermoscopic,ISIC_8168496
+IL_8853986,clinical: close-up,ISIC_4396652
+IL_8853986,dermoscopic,ISIC_5093862
+IL_8877629,clinical: close-up,ISIC_9921386
+IL_8877629,dermoscopic,ISIC_5932820
+IL_8951938,clinical: close-up,ISIC_8908980
+IL_8951938,dermoscopic,ISIC_4935816
+IL_8962270,clinical: close-up,ISIC_9552881
+IL_8962270,dermoscopic,ISIC_5950652
+IL_8971740,clinical: close-up,ISIC_7319315
+IL_8971740,dermoscopic,ISIC_2515838
+IL_9010382,clinical: close-up,ISIC_6217625
+IL_9010382,dermoscopic,ISIC_0770326
+IL_9064607,clinical: close-up,ISIC_9237488
+IL_9064607,dermoscopic,ISIC_6933070
+IL_9070099,clinical: close-up,ISIC_9165967
+IL_9070099,dermoscopic,ISIC_6856028
+IL_9132121,clinical: close-up,ISIC_4665494
+IL_9132121,dermoscopic,ISIC_0811596
+IL_9192355,clinical: close-up,ISIC_0260732
+IL_9192355,dermoscopic,ISIC_0321371
+IL_9193873,clinical: close-up,ISIC_3309783
+IL_9193873,dermoscopic,ISIC_8356776
+IL_9222383,clinical: close-up,ISIC_9376579
+IL_9222383,dermoscopic,ISIC_8635663
+IL_9269726,clinical: close-up,ISIC_9179636
+IL_9269726,dermoscopic,ISIC_1928560
+IL_9274006,clinical: close-up,ISIC_7527340
+IL_9274006,dermoscopic,ISIC_5488940
+IL_9303237,clinical: close-up,ISIC_8876204
+IL_9303237,dermoscopic,ISIC_9521117
+IL_9336389,clinical: close-up,ISIC_0686239
+IL_9336389,dermoscopic,ISIC_7340333
+IL_9344336,clinical: close-up,ISIC_4181074
+IL_9344336,dermoscopic,ISIC_2846004
+IL_9353548,clinical: close-up,ISIC_2848199
+IL_9353548,dermoscopic,ISIC_3050024
+IL_9368143,clinical: close-up,ISIC_6573003
+IL_9368143,dermoscopic,ISIC_9104095
+IL_9395505,clinical: close-up,ISIC_0841169
+IL_9395505,dermoscopic,ISIC_8280602
+IL_9421903,clinical: close-up,ISIC_2153383
+IL_9421903,dermoscopic,ISIC_1818006
+IL_9439470,clinical: close-up,ISIC_4267147
+IL_9439470,dermoscopic,ISIC_7521530
+IL_9453273,clinical: close-up,ISIC_4769059
+IL_9453273,dermoscopic,ISIC_2647192
+IL_9529551,clinical: close-up,ISIC_6300467
+IL_9529551,dermoscopic,ISIC_6754024
+IL_9554628,clinical: close-up,ISIC_5240908
+IL_9554628,dermoscopic,ISIC_8626277
+IL_9563257,clinical: close-up,ISIC_1792162
+IL_9563257,dermoscopic,ISIC_8705648
+IL_9569942,clinical: close-up,ISIC_2983004
+IL_9569942,dermoscopic,ISIC_4807554
+IL_9570046,clinical: close-up,ISIC_5802479
+IL_9570046,dermoscopic,ISIC_4564958
+IL_9593601,clinical: close-up,ISIC_5625173
+IL_9593601,dermoscopic,ISIC_4792565
+IL_9624462,clinical: close-up,ISIC_7239055
+IL_9624462,dermoscopic,ISIC_7454975
+IL_9667838,clinical: close-up,ISIC_5518035
+IL_9667838,dermoscopic,ISIC_3720143
+IL_9680907,clinical: close-up,ISIC_8467445
+IL_9680907,dermoscopic,ISIC_9179044
+IL_9730160,clinical: close-up,ISIC_7745161
+IL_9730160,dermoscopic,ISIC_0150748
+IL_9755525,clinical: close-up,ISIC_9703128
+IL_9755525,dermoscopic,ISIC_1243858
+IL_9785739,clinical: close-up,ISIC_4217947
+IL_9785739,dermoscopic,ISIC_6161362
+IL_9840660,clinical: close-up,ISIC_1859149
+IL_9840660,dermoscopic,ISIC_2962014
+IL_9862724,clinical: close-up,ISIC_2425838
+IL_9862724,dermoscopic,ISIC_4845560
+IL_9878565,clinical: close-up,ISIC_3955799
+IL_9878565,dermoscopic,ISIC_2752768
+IL_9891746,clinical: close-up,ISIC_3984912
+IL_9891746,dermoscopic,ISIC_9357735
+IL_9891948,clinical: close-up,ISIC_9922427
+IL_9891948,dermoscopic,ISIC_6664385
+IL_9936896,clinical: close-up,ISIC_4487781
+IL_9936896,dermoscopic,ISIC_2673443
+IL_9943627,clinical: close-up,ISIC_7803811
+IL_9943627,dermoscopic,ISIC_3669176
+IL_9949464,clinical: close-up,ISIC_5471903
+IL_9949464,dermoscopic,ISIC_4426808
+IL_9952743,clinical: close-up,ISIC_8580681
+IL_9952743,dermoscopic,ISIC_3937278
+IL_9961015,clinical: close-up,ISIC_9101382
+IL_9961015,dermoscopic,ISIC_0950510
+IL_9980498,clinical: close-up,ISIC_6810372
+IL_9980498,dermoscopic,ISIC_1435977
+IL_9987263,clinical: close-up,ISIC_6713938
+IL_9987263,dermoscopic,ISIC_0593055
