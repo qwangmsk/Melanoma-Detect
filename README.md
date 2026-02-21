@@ -92,7 +92,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
 ### Data sources
 The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing ChatGPT's robustness across diverse populations. 
 
-Publicly available, expertly curated, and pathologically confirmed melanoma image datasets with diverse skin tones are limited and difficult to access. After surveying dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT diagnostic performance across skin tones. We were unable to obtain access to the Diverse Dermatology Images (DDI) dataset despite multiple attempts. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
+After surveying dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT diagnostic performance across skin tones. We were unable to obtain access to the Diverse Dermatology Images (DDI) dataset despite multiple attempts. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
 
         Tschandl P, Akay BN, Rosendahl C, Rotemberg V, et al. 
         MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit 
