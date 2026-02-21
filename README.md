@@ -89,6 +89,8 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
 
 ## 2. GPT-5.2 performance across skin-tone subgroups
 
+The most recent GPT-5.2 model released in December 2025 was used in this assessment.
+
 ### Data sources
 The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing ChatGPT's robustness across diverse populations. 
 
@@ -103,7 +105,7 @@ From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to
 
 ### Prompting
 
-Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (1) malignancy discrimination, and (2) generation of the top three differential diagnoses. The most recent GPT-5.2 model released in December 2025 was used in this assessment.
+Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (1) malignancy discrimination, and (2) top-three differential diagnoses. 
 
 (1) For each skin lesion, we used the zero-shot prompting approach to submit requests to the GPT-5.2 model via the OpenAI API interface. A standardized and formal prompt format was applied to ensure consistency across evaluations. The prompts used for malignancy discrimination in the two scenarios are provided below:
 
