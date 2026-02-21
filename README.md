@@ -1,6 +1,6 @@
 # Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images
 
-The objective of this project is to evaluate the performance of the newly released GPT-5 for melanoma detection.
+The objective of this project is to evaluate the performance of the newly released GPT-5 in Section 1 and GPT-5.2 in Section 2 for melanoma detection.
 
 ## System setup
 
@@ -30,7 +30,7 @@ This project uses two popular datasets, the International Skin Imaging Collabora
 
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
-### GPT-5 assessment
+### Prompting and assessment
 
 ![Figure](images/Figure_1.png)
 
@@ -99,7 +99,7 @@ After surveying many dermatology image datasets, we identified <strong>Milk10K</
         for Diagnosing Pigmented and Nonpigmented Skin Cancer and 
         its Simulators. Journal of Investigative Dermatology. 2025.
 
-### GPT-5.2 assessment
+### Prompting and assessment
 
 Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (a) generation of the top three differential diagnoses and (b) malignancy discrimination. We evaluated the GPT-5.2 model released in December 2025.
 
