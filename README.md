@@ -1,6 +1,6 @@
 # Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images
 
-The objective of this project is to evaluate the performance of the newly released GPT-5 in Section 1 and GPT-5.2 in Section 2 for melanoma detection.
+The objective of this project is to evaluate the performance of the newly released GPT-5 (in Section 1) and GPT-5.2 (in Section 2) for melanoma detection.
 
 ## System setup
 
@@ -87,12 +87,12 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 Diagnostic Performance Across Skin-Tone Subgroups
+## 2. GPT-5.2 Performance Across Skin-Tone Subgroups
 
 ### Data sources
-The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing GPT's robustness across diverse populations. 
+The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing ChatGPT's robustness across diverse populations. 
 
-After surveying many dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT melanoma diagnostic performance across skin tones. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
+After surveying many dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT diagnostic performance across skin tones. Although we made multiple attempts, we were unable to obtain access to the Diverse Dermatology Images (DDI) dataset. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
 
         Tschandl P, Akay BN, Rosendahl C, Rotemberg V, et al. 
         MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit 
@@ -101,7 +101,7 @@ After surveying many dermatology image datasets, we identified <strong>Milk10K</
 
 ### Prompting and assessment
 
-Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (a) generation of the top three differential diagnoses and (b) malignancy discrimination. We evaluated the GPT-5.2 model released in December 2025.
+Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (a) generation of the top three differential diagnoses and (b) malignancy discrimination. The GPT-5.2 model released in December 2025 was evaluated in this study.
 
 (1) For each skin lesion, we used a zero-shot prompting approach to present the request to GPT-5.2 model via OpenAI API interface. For malignancy discrimination, below are the prompts used for two scenarios:
 
