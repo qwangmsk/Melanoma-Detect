@@ -87,7 +87,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 performance across skin-tone subgroups
+## 2. GPT-5.2 performance across skin tones
 
 The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
@@ -149,8 +149,8 @@ The malignancy discrimination were assessed using script milk10k_malignancy_eval
 
         python milk10k_top3_eval.py
 
-The top-three differential diagnoses of GPT-5.2 were conducted using script milk10k_top3_eval.py. Below is the command I used:
+The top-three differential diagnoses of GPT-5.2 were conducted using script milk10k_top3_eval.py. Below is the command used:
 
         python milk10k_top3_eval.py
 
-The results of our assessment will be posted here upon acceptance of the manuscript.
+The assessment results will be posted at this website upon acceptance of our manuscript.
