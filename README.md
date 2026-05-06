@@ -153,4 +153,10 @@ The top-three differential diagnoses of GPT-5.2 were conducted using script milk
 
         python milk10k_top3_eval.py
 
-The assessment results will be posted at this website upon acceptance of our manuscript.
+The assessment results will be posted at this website upon publication of our paper.
+
+### Publication
+
+    Frederickson, KL; Adunyah, SE; Wang, Q 
+    Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. Accepted by Frontiers in Medicine - Dermatology 
+    2026. https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1816102/
