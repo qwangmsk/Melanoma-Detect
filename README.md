@@ -158,5 +158,6 @@ The assessment results will be posted at this website upon publication of our pa
 ### Publication
 
     Frederickson, KL; Adunyah, SE; Wang, Q 
-    Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. Accepted by Frontiers in Medicine - Dermatology 
-    2026. https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1816102/
+    Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. 
+    Accepted by Frontiers in Medicine - Dermatology, 2026.  
+    https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1816102/
