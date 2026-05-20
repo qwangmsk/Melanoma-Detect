@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. GPT-5 diagnostic performance on image datasets ISIC Archive and HAM10K
+## 1. GPT-5 diagnostic performance on dermoscopic image datasets ISIC Archive and HAM10K
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
