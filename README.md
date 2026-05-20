@@ -1,4 +1,4 @@
-# Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images
+# Evaluating GPT-5 for Melanoma Detection Using Dermatologic Images
 
 The objective of this project is to comprehensively evaluate the performance of the newly released GPT-5 (in Section 1) and GPT-5.2 (in Section 2) for melanoma detection.
 
