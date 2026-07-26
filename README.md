@@ -166,3 +166,12 @@ For comprehensive analysis and results of GPT-5.2, please see our recent publica
     Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. 
     Frontiers in Medicine - Dermatology, 2026. 13:1816102.  
     https://doi.org/10.3389/fmed.2026.1816102
+
+## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for Melanoma Diagnosis
+
+### CNN models
+1. CNN ensemble ranked top in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/competitions/siim-isic-melanoma-classification/writeups/all-data-are-ext-1st-place-solution
+2. ResNet-50 model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base
+
+### Data source
+All evaluations were performed using Derm7pt dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist, facilitating the development and evaluation of computer-aided diagnostic systems. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
