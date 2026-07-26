@@ -147,7 +147,7 @@ Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-
 
 The malignancy discrimination were assessed using script milk10k_malignancy_eval.py. In current version, the image folder and metadata file are hardcoded. After setting correct file paths, run the following command and GPT diagnosis results will be automatically collected, processed, and stored in two seperate files, gpt52_milk10k_derm_only_predictions.csv and gpt52_milk10k_derm_plus_clin_predictions.csv.
 
-        python milk10k_top3_eval.py
+        python milk10k_malignancy_eval.py
 
 The top-three differential diagnoses of GPT-5.2 were conducted using script milk10k_top3_eval.py. Below is the command used:
 
