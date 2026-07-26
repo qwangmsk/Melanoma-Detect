@@ -75,9 +75,9 @@ A summary of GPT-5 performance in melanoma detection on ISIC:
 
 ![Figure](images/Figure_3.png)
 
-GPT-5 performance on HAM10K:
+<!--GPT-5 performance on HAM10K:-->
 
-<img src="images/Figure_4.png" width="380">
+<!--img src="images/Figure_4.png" width="380"-->
 
 For comprehensive analysis and results of GPT-5, please see our recent publication below.
 
@@ -107,23 +107,23 @@ From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to
 
 Because our earlier results on the ISIC and HAM100K datasets indicated that GPT-5 was not well suited for top-1 diagnosis (see Results in Section 1 above), the present evaluation focused on two clinically relevant diagnostic tasks: (1) malignancy discrimination, and (2) top-three differential diagnoses. 
 
-(1) For each skin lesion, we used the zero-shot prompting approach to submit requests to the GPT-5.2 model via the OpenAI API interface. A standardized and formal prompt format was applied to ensure consistency across evaluations. The prompts used for malignancy discrimination in the two scenarios are provided below:
+(1) For each skin lesion, we used the zero-shot prompting approach to submit requests to the GPT-5.2 model via the OpenAI API interface. A standardized and formal prompt format was applied to ensure consistency across evaluations. The prompt used for malignancy discrimination in the dermoscopy-only scenarios is provided below:
 
-* Dermoscopy only
+<!--* Dermoscopy only-->
 
        Task: classify the lesion as Malignant or Benign based on this dermoscopic image.
        Return ONLY valid JSON with keys:
          pred: 'Malignant' or 'Benign'
          confidence: number from 0 to 1
        No extra keys. No prose.
-* Dermoscopy plus clinical close-up
+<!--* Dermoscopy plus clinical close-up
 
        Task: classify the lesion as Malignant or Benign based on this dermoscopic image
              and the clinical close-up.
        Return ONLY valid JSON with keys:
          pred: 'Malignant' or 'Benign'
          confidence: number from 0 to 1
-       No extra keys. No prose.
+       No extra keys. No prose.-->
 
 (2) We tested different prompts and found minor variations in prompt wording did not materially affect the outcomes. So we used a single standardized prompt to generate the top-3 differential diagnoses for both scenarios to maintain simplicity and consistency, as follows:
 
