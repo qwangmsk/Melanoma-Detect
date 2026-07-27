@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Evaluating GPT-5 diagnostic performance on two dermoscopic image datasets, ISIC Archive and HAM10K (data & code available at [assessment-on-isic](./assessment-on-isic))
+## 1. Evaluating GPT-5 diagnostic performance on two dermoscopy image datasets, ISIC Archive and HAM10K (data & code available at [assessment-on-isic](./assessment-on-isic))
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
@@ -71,15 +71,15 @@ A summary of GPT-5 performance in melanoma detection on ISIC:
 
 <!--img src="images/Figure_4.png" width="380"-->
 
-For comprehensive analysis and results of GPT-5, please see our recent publication below.
-
 ### Publication
+
+For comprehensive analysis and results of GPT-5, please see our recent publication below.
 
     Wang, Q; Amugo, I; Rajakaruna, H; Irudayam, MJ; Xie, H; Shanker, A; Adunyah, SE 
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 performance across skin tones on image dataset Milk10K (data & code available at [assessment-on-milk10k](./assessment-on-milk10k))
+## 2. GPT-5.2 performance across skin tones on skin image dataset Milk10K (data & code available at [assessment-on-milk10k](./assessment-on-milk10k))
 
 The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
@@ -140,14 +140,15 @@ The top-three differential diagnoses of GPT-5.2 were conducted using script milk
 
         python milk10k_top3_eval.py
 
-### Top-3 differential diagnostic performance 
+<!--### Top-3 differential diagnostic performance 
 A summary of GPT-5.2 performance in top-3 differential diagnosis accross skin tones:   
 
-![Figure](images/Figure_5.png)
-
-For comprehensive analysis and results of GPT-5.2, please see our recent publication below.
+![Figure](images/Figure_5.png)-->
 
 ### Publication
+
+Our results suggest that GPT-5.2 exhibits stable melanoma-related diagnostic performance across diverse skin tones
+on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our recent publication below.
 
     Frederickson, KL; Adunyah, SE; Wang, Q 
     Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. 
