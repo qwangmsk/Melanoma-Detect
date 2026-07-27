@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Evaluating GPT-5 diagnostic performance on dermoscopic image datasets ISIC Archive and HAM10K
+## 1. Evaluating GPT-5 diagnostic performance on dermoscopic image datasets ISIC Archive and HAM10K (under assessment-on-isic folder)
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
@@ -87,7 +87,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 performance across skin tones on image dataset Milk10K
+## 2. GPT-5.2 performance across skin tones on image dataset Milk10K (under assessment-on-milk10k folder)
 
 The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
@@ -170,7 +170,7 @@ For comprehensive analysis and results of GPT-5.2, please see our recent publica
 ## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for Melanoma Diagnosis
 
 ### CNN models
-1. <b>CNN ensemble</b> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download models: 
+1. <b>CNN ensemble</b> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
    kaggle datasets download -d boliu0/melanoma-winning-models
    
@@ -178,7 +178,5 @@ For comprehensive analysis and results of GPT-5.2, please see our recent publica
 
    ./start.sh
 
-   
-
-### Data source
+ ### Data source
 All evaluations were performed on the Derm7pt dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
