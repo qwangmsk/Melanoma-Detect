@@ -169,7 +169,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
  ### Data source
 All evaluations were performed on the <strong>Derm7pt</strong> dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
 
- ### Commands for generating the results
+ ### Commands for generating assessment results
 
 Below are the commands we used to assess four AI approaches for melanoma diagnosis on Derm7pt:
 
