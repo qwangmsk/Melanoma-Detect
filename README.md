@@ -11,7 +11,7 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Evaluating GPT-5 diagnostic performance on two dermoscopy image datasets, ISIC Archive and HAM10K (data & code available at [assessment-on-isic](./assessment-on-isic))
+## 1. GPT-5 diagnostic performance on two dermoscopy image datasets, ISIC Archive and HAM10K (data & code under folder [assessment-on-isic](./assessment-on-isic))
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
@@ -62,8 +62,8 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
                 --sheet "Sheet1" --out isic_out/preds 
                 --model gpt-5 --truth-col "metadata.clinical.diagnosis_1"
 
-### A snapshot of GPT-5's performance
-A summary of GPT-5 performance in melanoma detection on ISIC:  
+### A snapshot of GPT-5's performance on ISIC
+<!--A summary of GPT-5 performance in melanoma detection on ISIC:  -->
 
 ![Figure](images/Figure_3.png)
 
@@ -79,7 +79,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 performance across skin tones on skin image dataset Milk10K (data & code available at [assessment-on-milk10k](./assessment-on-milk10k))
+## 2. GPT-5.2 performance across skin tones on skin image dataset Milk10K (data & code under [assessment-on-milk10k](./assessment-on-milk10k))
 
 The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
