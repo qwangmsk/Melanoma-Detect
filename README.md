@@ -11,22 +11,14 @@ To run the code on this Github site, a valid OpenAI API account and an API key a
 3. Generate an API key at https://platform.openai.com/api-keys, if you don't have it yet. 
 4. Save your key as a global environment variable, OPENAI_API_KEY, so you can access across various applications and scripts on your system without hardcoding it.
 
-## 1. Evaluating GPT-5 diagnostic performance on dermoscopic image datasets ISIC Archive and HAM10K (data and code available at [assessment-on-isic](./assessment-on-isic))
+## 1. Evaluating GPT-5 diagnostic performance on two dermoscopic image datasets, ISIC Archive and HAM10K (data & code available at [assessment-on-isic](./assessment-on-isic))
 
 ### Data sources
 This project uses two popular datasets, the International Skin Imaging Collaboration (<strong>ISIC</strong>) Archive (https://api.isic-archive.com/images/) and the Human Against Machine with 10,000 training images (<strong>HAM10000</strong> or <strong>HAM10K</strong>) dataset (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), to assess GPT-5's performance in melanoma detection. 
 
 (1) A previous study by Shifai et al. randomly selected 50 melanomas and 50 benign nevi from <strong>ISIC</strong> to benchmark GPT-4V (PMID: 38244612, DOI: 10.1016/j.jaad.2023.12.062). To make our assessment comparable with theirs, we obtained the identifiers of these ISIC images from their publication and provided them in a file isic-100-image-ids.txt on this site. With these identifiers, we downloaded these 100 dermoscopic images from ISIC, along with the corresponding metadata, using our Python script download_images.py. 
-
-        Shifai N, Van Doorn R, Malvehy J, Sangers TE. Can ChatGPT vision diagnose 
-        melanoma? Anexploratory diagnostic accuracy study. Journal of the American 
-        Academy of Dermatology, 2024;90(5):1057-1059. 
-
+       
 (2) From the <strong>HAM10K</strong> dataset, a recent study randomly selected 500 dermoscopic images (PMID: 40117499, DOI: 10.2196/67551) to evaluate GPT-4T and GPT-4o. However, the study did not disclose the identifiers of the selected images. Following the description in that paper, we independently sampled 500 images from HAM10K to construct our test dataset. Given the independent sampling, however, the overlap between the two sets is expected to be small. To ensure reproducibility, we share the identifiers of our 500 images in a file ham10k-500-image-ids.txt.
-
-        Sattler SS, Chetla N, Chen M, et al. Evaluating the Diagnostic Accuracy
-        of ChatGPT-4 Omni and ChatGPT-4 Turbo in Identifying Melanoma: Comparative 
-        Study. JMIR Dermatology 2025;8:e67551-e67551. DOI: 10.2196/67551. 
 
 The script download_images.py saves metadata into a file, isic_metadata.xlsx, to be used in downstream analysis.
         
@@ -87,7 +79,7 @@ For comprehensive analysis and results of GPT-5, please see our recent publicati
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
     2025, 15, 3052. https://doi.org/10.3390/diagnostics15233052
 
-## 2. GPT-5.2 performance across skin tones on image dataset Milk10K (data and code available at [assessment-on-milk10k](./assessment-on-milk10k))
+## 2. GPT-5.2 performance across skin tones on image dataset Milk10K (data & code available at [assessment-on-milk10k](./assessment-on-milk10k))
 
 The most recent GPT-5.2 model released in December 2025 was used in this assessment.
 
@@ -95,11 +87,6 @@ The most recent GPT-5.2 model released in December 2025 was used in this assessm
 The ISIC Archive and HAM10K dataset, although widely used, predominantly contain images from light-skinned individuals and lacks standardized skin tone annotations, limiting its suitability for assessing ChatGPT's robustness across diverse populations. 
 
 After surveying dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT diagnostic performance across skin tones. We were unable to obtain access to the Diverse Dermatology Images (DDI) dataset during the project period. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive, Kaggle, and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
-
-        Tschandl P, Akay BN, Rosendahl C, Rotemberg V, et al. 
-        MILK10k: A Hierarchical Multimodal Imaging-Learning Toolkit 
-        for Diagnosing Pigmented and Nonpigmented Skin Cancer and 
-        its Simulators. Journal of Investigative Dermatology. 2025.
 
 From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 total images. To ensure reproducibility, we provided the identifiers of the selected images in file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
 
@@ -170,11 +157,11 @@ For comprehensive analysis and results of GPT-5.2, please see our recent publica
 ## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for Melanoma Diagnosis
 
 ### CNN models
-1. <b>CNN ensemble</b> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
+1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
    kaggle datasets download -d boliu0/melanoma-winning-models
    
-3. <b>ResNet-50</b> model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base. After downloading the code, MILK10K dataset, and preparing a python environment, you can then create the ResNet-50 model by running start.sh as follows (start.sh is a downloaded file):
+3. <strong>ResNet-50</strong> model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base. After downloading the code, MILK10K dataset, and preparing a python environment, you can then create the ResNet-50 model by running start.sh as follows (start.sh is a downloaded file):
 
    ./start.sh
 
