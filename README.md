@@ -170,8 +170,15 @@ For comprehensive analysis and results of GPT-5.2, please see our recent publica
 ## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for Melanoma Diagnosis
 
 ### CNN models
-1. CNN ensemble ranked top in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/competitions/siim-isic-melanoma-classification/writeups/all-data-are-ext-1st-place-solution
-2. ResNet-50 model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base
+1. <b>CNN ensemble</b> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download models: 
+
+   kaggle datasets download -d boliu0/melanoma-winning-models
+   
+3. <b>ResNet-50</b> model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base. After downloading the code, MILK10K dataset, and preparing a python environment, you can then create the ResNet-50 model by running start.sh as follows (start.sh is a downloaded file):
+
+   ./start.sh
+
+   
 
 ### Data source
-All evaluations were performed using Derm7pt dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist, facilitating the development and evaluation of computer-aided diagnostic systems. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
+All evaluations were performed on the Derm7pt dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
