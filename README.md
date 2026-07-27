@@ -155,7 +155,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
     Frontiers in Medicine - Dermatology, 2026. 13:1816102.  
     https://doi.org/10.3389/fmed.2026.1816102
 
-## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for Melanoma Diagnosis
+## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for melanoma diagnosis
 
 ### CNN models
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
@@ -167,4 +167,43 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
    ./start.sh
 
  ### Data source
-All evaluations were performed on the Derm7pt dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
+All evaluations were performed on the <strong>Derm7pt</strong> dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
+
+ ### Commands for generating the results
+
+Below are the commands we used to assess four AI approaches for melanoma diagnosis on Derm7pt:
+
+       python siim90_assess_derm7pt.py \
+             --csv ../derm7pt/release_v0/meta/meta.csv \
+             --image_dir ../derm7pt/release_v0/images \
+             --model_dir /Users/qwang/models/melanoma-winning-models \
+             --image_col derm \
+             --diagnosis_col diagnosis \
+             --output_csv siim90_predict_on_derm7pt/siim90_derm7pt_predictions.csv \
+             --output_metrics siim90_predict_on_derm7pt/siim90_derm7pt_metrics.json
+       
+       
+       python resnet_assess_derm7pt.py \
+             --csv ../derm7pt/release_v0/meta/meta.csv \
+             --image_dir ../derm7pt/release_v0/images \
+             --run_dir runs/20260605_083158 \
+             --topk 5 \
+             --output_csv resnet_predict_on_derm7pt/resnet_derm7pt_predictions.csv \
+             --output_metrics resnet_predict_on_derm7pt/resnet_derm7pt_metrics.json \
+             --topk 3
+       
+       
+        python gpt_assess_derm7pt.py \
+             --csv ../derm7pt/release_v0/meta/meta.csv \
+             --image_dir ../derm7pt/release_v0/images \
+             --model gpt-5.5 \
+             --output_csv gpt_derm7pt_predictions.csv \
+             --output_metrics gpt_derm7pt_metrics.json
+       
+       
+        python gpt_fusion_assess_derm7pt.py \
+             --resnet_csv ../milk10k_train_base/resnet_predict_on_derm7pt/resnet_derm7pt_predictions.csv \
+             --siim_csv ../SIIM-ISIC-Melanoma-Classification-1st-Place-Solution-master/siim90_predict_on_derm7pt/siim90_derm7pt_predictions.csv \
+             --model gpt-5.5 \
+             --output_csv gpt_fusion_derm7pt_predictions.csv \
+             --output_metrics gpt_fusion_derm7pt_metrics.json
