@@ -1,4 +1,4 @@
-# LLMs for Melanoma Detection Using Dermatologic Images
+# LLMs for Melanoma Detection Using Dermoscopic Images
 
 <!--The objective of this project is to comprehensively evaluate the performance of the newly released GPT-5 (in Section 1) and GPT-5.2 (in Section 2) for melanoma detection.
 -->
@@ -157,7 +157,9 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
 
 ## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for melanoma diagnosis
 
-### CNN models
+### CNN models 
+Our framework integrates GPT-5.5 with two independently developed CNN models, a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification and the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
+
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
    kaggle datasets download -d boliu0/melanoma-winning-models
