@@ -171,7 +171,7 @@ All evaluations were performed on the <strong>Derm7pt</strong> dataset (https://
 
  ### Commands for generating assessment results
 
-Below are the commands we used to assess four AI approaches for melanoma diagnosis on Derm7pt:
+Below are the commands we used to assess and compare four AI approaches for melanoma diagnosis on Derm7pt:
 
        python siim90_assess_derm7pt.py \
              --csv ../derm7pt/release_v0/meta/meta.csv \
