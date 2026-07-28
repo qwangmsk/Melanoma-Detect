@@ -209,3 +209,9 @@ Below are the commands we used to assess and compare four AI approaches for mela
              --model gpt-5.5 \
              --output_csv gpt_fusion_derm7pt_predictions.csv \
              --output_metrics gpt_fusion_derm7pt_metrics.json
+
+### Preprint
+
+    Frederickson, KL; Li, D.; Adunyah, SE; Wang, Q 
+    GPT Fusion: Integrating Convolutional Neural Networks with GPT-5.5 for Melanoma Diagnosis. 
+    Research Square, 2026-07-28. https://doi.org/10.21203/rs.3.rs-10500601/v1
