@@ -212,6 +212,6 @@ Below are the commands we used to assess and compare four AI approaches for mela
 
 ### Preprint
 
-    Frederickson, KL; Li, D.; Adunyah, SE; Wang, Q 
-    GPT Fusion: Integrating Convolutional Neural Networks with GPT-5.5 for Melanoma Diagnosis. 
-    Research Square, 2026-07-28. https://doi.org/10.21203/rs.3.rs-10500601/v1
+    Frederickson, K. L., Li, D., Edrich, O. D., Bhatia, A. C., Adunyah, S. E., & Wang, Q. 
+    GPT Fusion: Reasoning-Based Integration of Specialized Convolutional Neural Networks for Melanoma Diagnosis. 
+    Research square, rs.3.rs-10500601. August 2026. https://doi.org/10.21203/rs.3.rs-10500601/v2
