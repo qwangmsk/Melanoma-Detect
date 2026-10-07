@@ -156,7 +156,9 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
     https://doi.org/10.3389/fmed.2026.1816102
 
 ## 3. GPT Fusion: reasoning-based integration of Convolutional Neural Networks (CNNs) for melanoma diagnosis
-<strong>GPT Fusion</strong> is a novel approach that uses GPT-based reasoning to integrate complementary evidence from specialized vision models for melanoma diagnosis. The Python script gpt-fusion-ui.py provides a web-based implementation that users can install and run locally. Through the web interface, users can upload a clinical close-up image and the corresponding dermoscopic image of a skin lesion. GPT Fusion analyzes the lesion using the integrated models and presents the fused results, including the top-3 differential diagnosis, melanoma prediction, and overall malignancy prediction, as illustrated below.
+<strong>GPT Fusion</strong> is a novel diagnostic framework that uses GPT-based reasoning to integrate complementary evidence from specialized vision models for melanoma diagnosis. By combining the strengths of multiple models within a unified reasoning framework, GPT Fusion enhanced melanoma diagnoses.
+
+GPT Fusion was implemented as a standalone, locally deployable software tool that provides an end-to-end workflow for multimodal skin lesion analysis. The complete application, including the web-based user interface implemented in [gpt-fusion-ui.py](./gpt-fusion-ui.py), supporting Python modules, and pretrained CNN models, can be installed and run locally as a self-contained diagnostic system. Through the web interface, users can upload a clinical close-up image together with the corresponding dermoscopic image of a skin lesion. The system then automatically executes the integrated models, synthesizes their complementary predictions through GPT-based reasoning, and presents the fused diagnostic results. The example below shows the GPT Fusion output for a representative skin lesion.
 
 <table align="center">
   <tr>
@@ -179,7 +181,7 @@ The GPT Fusion framework uses GPT-5.5 reasoning to integrate the outputs of two 
 
  ### Data source
 
-Although GPT Fusion can accept any compatible skin lesion images as input, an independent, publicly available dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1,011 paired clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also provides annotations based on the seven-point checklist. The widely used ISIC Archive and MILK10K datasets were excluded from the evaluation of GPT Fusion because they had been used to train the CNN models incorporated into the framework.
+Although GPT Fusion can accept any compatible skin lesion images as input, an independent, publicly available dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1,011 paired clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also provides annotations based on the seven-point checklist. The widely used ISIC Archive and MILK10K datasets were not used to assess GPT Fusion because they had been used to train the CNN models incorporated into the framework.
 
  ### Commands for generating the assessment results in the manuscript
 
