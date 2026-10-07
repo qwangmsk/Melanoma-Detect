@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GPT Fusion User Interface (UI).
+"""GPT Fusion Web User Interface (UI).
 
 PURPOSE:
 # Proof-of-concept implementation of GPT-based reasoning to integrate complementary
