@@ -171,7 +171,7 @@ Our framework uses GPT-5.5 reasoning to integrate the outputs of two independent
 
  ### Data source
 
-Because the ISIC Archive and MILK10K datasets had been used to train the CNN models evaluated in this study, an independent, public dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. 
+Although GPT Fusion can accept any compatible skin lesion images as input, an independent, publicly available dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1,011 paired clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also provides annotations based on the seven-point checklist. The widely used ISIC Archive and MILK10K datasets were excluded from the evaluation of GPT Fusion because they had been used to train the CNN models incorporated into this study.
 
  ### Commands for generating the assessment results in the manuscript
 
