@@ -36,7 +36,7 @@ FRONTEND URL:
     http://127.0.0.1:7860
 
 MMELANOMA DIAGNOSIS WITH GPT FUSION:
-1. Upload a clinical close-up image and dermoscopic image through the web interface at http://127.0.0.1:7860.
+1. Upload a clinical close-up image and dermoscopic image through the web UI at http://127.0.0.1:7860.
 2. The backend runs ResNet-50 on both images and SIIM-90 on the dermoscopic image.
 3. GPT integrates the outputs from both models and reports the fused differential diagnosis,
    melanoma prediction, and overall malignancy prediction to the user.
