@@ -156,7 +156,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
     https://doi.org/10.3389/fmed.2026.1816102
 
 ## 3. GPT Fusion: reasoning-based integration of Convolutional Neural Networks (CNNs) for melanoma diagnosis
-<strong>GPT Fusion</strong> is a novel approach that uses GPT-based reasoning to integrate complementary evidence from specialized vision models, ResNet-50 and SIIM-90 in this implementation, for melanoma diagnosis. The Python script gpt-fusion-ui.py provides a web-based implementation that users can install and run locally. Through the web interface, users can upload a clinical close-up image and the corresponding dermoscopic image of a skin lesion. GPT Fusion analyzes the lesion using the integrated models and presents the fused results, including the top-3 differential diagnosis, melanoma prediction, and overall malignancy prediction, as illustrated below.
+<strong>GPT Fusion</strong> is a novel approach that uses GPT-based reasoning to integrate complementary evidence from specialized vision models for melanoma diagnosis. The Python script gpt-fusion-ui.py provides a web-based implementation that users can install and run locally. Through the web interface, users can upload a clinical close-up image and the corresponding dermoscopic image of a skin lesion. GPT Fusion analyzes the lesion using the integrated models and presents the fused results, including the top-3 differential diagnosis, melanoma prediction, and overall malignancy prediction, as illustrated below.
 
 <table align="center">
   <tr>
