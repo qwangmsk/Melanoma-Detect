@@ -2,9 +2,9 @@
 """Web User Interface (UI) of GPT Fusion.
 
 PURPOSE:
-# Proof-of-concept implementation of GPT-based reasoning to integrate complementary
-# evidence from specialized vision models--ResNet-50 and SIIM-90 in this case--to
-# enhance melanoma diagnosis.
+# Proof-of-concept web-based implementation of GPT-based reasoning to integrate
+# complementary evidence from specialized vision models--ResNet-50 and SIIM-90
+# in this case--to enhance melanoma diagnosis.
 
 REQUIREMENTS:
 # Python package gradio
@@ -16,10 +16,10 @@ INPUT:
 # Clinical close-up image: used as the second input to ResNet-50 model.
 
 OUTPUT:
-# Primary diagnosis harmonized to the Derm7pt diagnostic categories
 # Top-3 differential diagnosis harmonized to the Derm7pt diagnostic categories
 # Melanoma prediction
 # Malignancy prediction
+# Predicitons of individual models
 
 COMMAND TO START BACKEND: 
 # Assuming ResNet-50 and SIIM-90 are in the default directories. 
@@ -36,7 +36,7 @@ FRONTEND URL:
     http://127.0.0.1:7860
 
 MMELANOMA DIAGNOSIS WITH GPT FUSION:
-1. Upload a clinical close-up image and dermoscopic image through the web interface.
+1. Upload a clinical close-up image and dermoscopic image through the web interface at http://127.0.0.1:7860.
 2. The backend runs ResNet-50 on both images and SIIM-90 on the dermoscopic image.
 3. GPT integrates the outputs from both models and reports the fused differential diagnosis,
    melanoma prediction, and overall malignancy prediction to the user.
