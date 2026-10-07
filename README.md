@@ -174,7 +174,7 @@ All evaluations were performed on the <strong>Derm7pt</strong> dataset (https://
 
  ### Commands for generating assessment results in the manuscript
 
-Below are the commands we used to assess and compare four AI approaches for melanoma diagnosis on Derm7pt:
+Below are the commands and Python scripts we used to assess and compare four AI approaches for melanoma diagnosis on Derm7pt:
 
        python siim90_assess_derm7pt.py \
              --csv ../derm7pt/release_v0/meta/meta.csv \
@@ -214,5 +214,6 @@ Below are the commands we used to assess and compare four AI approaches for mela
 ### Preprint
 
     Frederickson, K. L., Li, D., Edrich, O. D., Bhatia, A. C., Adunyah, S. E., & Wang, Q. 
-    GPT Fusion: Reasoning-Based Integration of Specialized Convolutional Neural Networks for Melanoma Diagnosis. 
-    Research square, rs.3.rs-10500601. August 2026. https://doi.org/10.21203/rs.3.rs-10500601/v2
+    GPT Fusion: Reasoning-Based Integration of Specialized Convolutional Neural Networks 
+    for Melanoma Diagnosis. Research square, rs.3.rs-10500601. August 2026. 
+    https://doi.org/10.21203/rs.3.rs-10500601/v2
