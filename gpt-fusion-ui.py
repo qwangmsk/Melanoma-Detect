@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GPT Fusion Web User Interface (UI).
+"""Web User Interface (UI) of GPT Fusion.
 
 PURPOSE:
 # Proof-of-concept implementation of GPT-based reasoning to integrate complementary
@@ -34,6 +34,12 @@ COMMAND TO START BACKEND:
 
 FRONTEND URL:
     http://127.0.0.1:7860
+
+MMELANOMA DIAGNOSIS WITH GPT FUSION:
+1. Upload a clinical close-up image and dermoscopic image through the web interface.
+2. The backend runs ResNet-50 on both images and SIIM-90 on the dermoscopic image.
+3. GPT integrates the outputs from both models and reports the fused differential diagnosis,
+   melanoma prediction, and overall malignancy prediction to the user.
 """
 
 import argparse
