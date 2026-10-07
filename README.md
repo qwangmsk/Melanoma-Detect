@@ -155,7 +155,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
     Frontiers in Medicine - Dermatology, 2026. 13:1816102.  
     https://doi.org/10.3389/fmed.2026.1816102
 
-## 3. Integrating Convolutional Neural Networks (CNNs) with GPT-5.5 for melanoma diagnosis
+## 3. GPT-5.5 to integrate Convolutional Neural Networks (CNNs) for melanoma diagnosis
 
 ### CNN models 
 Our framework integrates GPT-5.5 with two independently developed CNN models, a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification and the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
