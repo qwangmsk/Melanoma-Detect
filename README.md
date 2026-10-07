@@ -170,7 +170,8 @@ Our framework uses GPT-5.5 reasoning to integrate the outputs of two independent
    ./start.sh
 
  ### Data source
-All evaluations were performed on the <strong>Derm7pt</strong> dataset (https://github.com/jeremykawahara/derm7pt), which contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. Derm7pt was selected as an independent external benchmark because neither the widely used ISIC Archive nor the MILK10K datasets were suitable for evaluation, as both had been used to train the CNN models assessed in this study.
+
+Because the ISIC Archive and MILK10K datasets had been used to train the CNN models evaluated in this study, an independent, public dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1011 pairs of clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also includes annotations based on the seven-point checklist. 
 
  ### Commands for generating the assessment results in the manuscript
 
