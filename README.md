@@ -163,11 +163,11 @@ Our framework uses GPT-5.5 reasoning to integrate the outputs of two independent
 
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
-   kaggle datasets download -d boliu0/melanoma-winning-models
+       kaggle datasets download -d boliu0/melanoma-winning-models
    
 3. <strong>ResNet-50</strong> model trained on MILK10K: https://codeberg.org/ptschandl/MILK10k_train_base. After downloading the code, MILK10K dataset, and preparing a python environment, you can then create the ResNet-50 model by running start.sh as follows (start.sh is among the downloaded files):
 
-   ./start.sh
+       ./start.sh
 
  ### Data source
 
