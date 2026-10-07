@@ -167,7 +167,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
 </table>
 
 ### CNN models 
-Our framework uses GPT-5.5 reasoning to integrate the outputs of two independently developed CNN models, (i) a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification, and (ii) the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
+The GPT Fusion framework uses GPT-5.5 reasoning to integrate the outputs of two independently developed CNN models, (i) a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification, and (ii) the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
 
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
@@ -179,7 +179,7 @@ Our framework uses GPT-5.5 reasoning to integrate the outputs of two independent
 
  ### Data source
 
-Although GPT Fusion can accept any compatible skin lesion images as input, an independent, publicly available dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1,011 paired clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also provides annotations based on the seven-point checklist. The widely used ISIC Archive and MILK10K datasets were excluded from the evaluation of GPT Fusion because they had been used to train the CNN models incorporated into this study.
+Although GPT Fusion can accept any compatible skin lesion images as input, an independent, publicly available dataset, <strong>Derm7pt</strong> (https://github.com/jeremykawahara/derm7pt), was selected as the primary external benchmark. Derm7pt contains 1,011 paired clinical close-up and dermoscopic images with expert-confirmed histopathological or clinical reference diagnoses and comprehensive clinical metadata. The dataset also provides annotations based on the seven-point checklist. The widely used ISIC Archive and MILK10K datasets were excluded from the evaluation of GPT Fusion because they had been used to train the CNN models incorporated into the framework.
 
  ### Commands for generating the assessment results in the manuscript
 
