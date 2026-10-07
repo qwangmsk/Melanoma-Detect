@@ -159,7 +159,7 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
 GPT Fusion is a novel approach that uses GPT-based reasoning to integrate complementary evidence from specialized vision models, ResNet-50 and SIIM-90 in this implementation, for melanoma diagnosis. The Python script gpt-fusion-ui.py provides a web-based implementation of GPT Fusion that users can install and run locally on their own computers.
 
 ### CNN models 
-Our framework integrates GPT-5.5 with two independently developed CNN models, a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification and the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
+Our framework uses GPT-5.5 reasoning to integrate the outputs of two independently developed CNN models, (i) a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification, and (ii) the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
 
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
