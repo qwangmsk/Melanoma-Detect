@@ -155,7 +155,8 @@ on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our rec
     Frontiers in Medicine - Dermatology, 2026. 13:1816102.  
     https://doi.org/10.3389/fmed.2026.1816102
 
-## 3. GPT-5.5 to integrate Convolutional Neural Networks (CNNs) for melanoma diagnosis
+## 3. GPT Fusion: reasoning-based integration of Convolutional Neural Networks for melanoma diagnosis
+GPT Fusion is a novel approach that uses GPT-based reasoning to integrate complementary evidence from specialized vision models, ResNet-50 and SIIM-90 in this implementation, for melanoma diagnosis. The Python script gpt-fusion-ui.py provides a web-based implementation of GPT Fusion that users can install and run locally on their own computers.
 
 ### CNN models 
 Our framework integrates GPT-5.5 with two independently developed CNN models, a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification and the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
