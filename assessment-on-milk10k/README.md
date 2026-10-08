@@ -76,7 +76,7 @@ A summary of GPT-5.2 performance in top-3 differential diagnosis accross skin to
 ### Publication
 
 Our results suggest that GPT-5.2 exhibits stable melanoma-related diagnostic performance across diverse skin tones
-on Milk10K.For comprehensive analysis and results of GPT-5.2, please see our recent publication below.
+on Milk10K. For a comprehensive analysis of GPT-5.2 and its performance, we refer readers to our recent publication:
 
     Frederickson, KL; Adunyah, SE; Wang, Q 
     Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. 
