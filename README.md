@@ -1,4 +1,4 @@
-## 1. Prior GPT-5 and GPT-5.2 Assessments
+## Assessments of LLMs for melanoma diagnosis
 
 Before developing the GPT Fusion framework, we systematically evaluated the diagnostic performance of GPT-5 and GPT-5.2 on multiple public dermoscopic image datasets.
 
