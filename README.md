@@ -6,7 +6,7 @@ Before developing the GPT Fusion framework, we systematically evaluated the diag
 
 We evaluated GPT-5 for melanoma detection using dermoscopic images from the ISIC Archive and HAM10K, including primary diagnosis, top-three differential diagnosis, and melanoma discrimination. Data, source code, prompts, and detailed instructions for reproducing the assessment are available in [assessment-on-isic](./assessment-on-isic).
 
-For comprehensive analysis and results, see:
+For comprehensive analysis and results, we refer readers to our recent publication:
 
     Wang Q, Amugo I, Rajakaruna H, et al. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics. 2025;15:3052. https://doi.org/10.3390/diagnostics15233052
 
