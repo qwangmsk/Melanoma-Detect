@@ -23,7 +23,7 @@ The script download_images.py saves metadata into a file, isic_metadata.xlsx, to
         
 ### Prompting and assessment
 
-![Figure](images/Figure_1.png)
+![Figure](../images/Figure_1.png)
 
 (1) The melanoma detection is assessed using OpenAI API interface. The top-one or primary diagnosis and top-three differential diagnoses of GPT-5 were conducted using script isic_top3_eval.py. For each image, the script uses a zero-shot prompting approach to present the request to GPT-5 model. Below is the prompt we used:
 
@@ -64,7 +64,7 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
 ### A snapshot of GPT-5's performance on ISIC
 <!--A summary of GPT-5 performance in melanoma detection on ISIC:  -->
 
-![Figure](images/Figure_3.png)
+![Figure](../images/Figure_3.png)
 
 <!--GPT-5 performance on HAM10K:-->
 
