@@ -16,7 +16,7 @@ The ISIC Archive and HAM10K dataset, although widely used, predominantly contain
 
 After surveying dermatology image datasets, we identified <strong>Milk10K</strong> as a suitable resource for evaluating GPT diagnostic performance across skin tones. We were unable to obtain access to the Diverse Dermatology Images (DDI) dataset during the project period. All dermoscopic images, clinical close-up, and metadata of Milk10K are publically available through the ISIC Archive, Kaggle, and can be obtained directly from https://api.isic-archive.com/doi/milk10k/. 
 
-From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 total images. To ensure reproducibility, we provided the identifiers of the selected images in file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
+From the Milk10K dataset, we randomly selected 92 lesions per skin tone class to construct a balanced subset for evaluating GPT-5.2. This subset comprises 460 unique lesions (92 per skin tone group) and 920 images in total. To ensure reproducibility, we provided the identifiers of the selected images in file, milk10k-460-image-ids.csv, which were used consistently across all experiments.
 
 ### Prompting
 
