@@ -72,7 +72,7 @@ The command to assess GPT-5 for malignancy discrimination on ISIC:
 
 ### Publication
 
-For comprehensive analysis and results of GPT-5, please see our recent publication below.
+For comprehensive analysis and results of GPT-5, we refer readers to our recent publication:
 
     Wang, Q; Amugo, I; Rajakaruna, H; Irudayam, MJ; Xie, H; Shanker, A; Adunyah, SE 
     Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics 
