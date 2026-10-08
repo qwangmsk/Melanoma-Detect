@@ -1,4 +1,4 @@
-## Assessments of LLMs for melanoma diagnosis
+## 1. Assessments of LLMs for melanoma diagnosis
 
 Before developing the GPT Fusion framework, we systematically evaluated the diagnostic performance of GPT-5 and GPT-5.2 on multiple public dermoscopic image datasets.
 
@@ -25,7 +25,7 @@ For comprehensive analysis and results, see:
 
 These evaluations demonstrated the potential of general-purpose multimodal LLMs for melanoma-related image interpretation while also revealing limitations of relying on an LLM alone. These observations motivated our subsequent work integrating LLM reasoning with specialized vision models in the GPT Fusion framework, provided in section below.
 
-## GPT Fusion: reasoning-based integration of Convolutional Neural Networks (CNNs) for melanoma diagnosis
+## 2. GPT Fusion: reasoning-based integration of Convolutional Neural Networks (CNNs) for melanoma diagnosis
 <strong>GPT Fusion</strong> is a novel diagnostic framework that uses GPT-based reasoning to integrate complementary evidence from specialized vision models for melanoma diagnosis. By combining the strengths of multiple models within a unified reasoning framework, GPT Fusion enhanced melanoma diagnoses.
 
 GPT Fusion was implemented as a standalone, locally deployable software tool that provides an end-to-end workflow for multimodal skin lesion analysis. The complete application, including the web-based user interface implemented in [gpt-fusion-ui.py](./gpt-fusion-ui.py), supporting Python modules, and pretrained CNN models, can be installed and run locally as a self-contained diagnostic system. Through the web interface, users can upload a clinical close-up image together with the corresponding dermoscopic image of a skin lesion. The system then automatically executes the integrated models, synthesizes their complementary predictions through GPT-based reasoning, and presents the fused diagnostic results. The screenshot below shows the GPT Fusion output for an example skin lesion.
