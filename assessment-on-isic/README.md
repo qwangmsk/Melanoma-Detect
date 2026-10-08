@@ -4,7 +4,7 @@
 -->
 ### System setup
 
-To run the code under this folder, a valid OpenAI API account and an API key are required. You can follow the following steps to set up your running environment:
+To run the code under this folder, a valid OpenAI API account and an API key are required. You can follow the procedure below to set up your running environment:
 
 1. Sign up at the OpenAI API platform.
 2. Set up your payment method.
