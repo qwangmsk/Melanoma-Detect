@@ -2,7 +2,7 @@
 
 <!--The objective of this project is to comprehensively evaluate the performance of the newly released GPT-5 (in Section 1) and GPT-5.2 (in Section 2) for melanoma detection.
 -->
-## System setup
+### System setup
 
 To run the code under this folder, a valid OpenAI API account and an API key are required. You can follow the following steps to set up your running environment:
 
