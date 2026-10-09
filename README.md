@@ -12,7 +12,7 @@ For comprehensive analysis and results, we refer readers to our recent publicati
 
 ### GPT-5.2 performance across skin tones
 
-We subsequently evaluated GPT-5.2 using a balanced subset of 460 lesions from <strong>Milk10K</strong> dataset (92 lesions from each of five skin-tone groups). The assessment focused on malignancy discrimination and top-three differential diagnosis using dermoscopic images alone or together with clinical close-up images. GPT-5.2 demonstrated generally stable melanoma-related diagnostic performance across the evaluated skin tones. Data, source code, prompts, and reproducibility information are available in [assessment-on-milk10k](./assessment-on-milk10k).
+We also evaluated GPT-5.2 using a balanced subset of 460 lesions from <strong>Milk10K</strong> dataset (92 lesions from each of five skin-tone groups). The assessment focused on malignancy discrimination and top-three differential diagnosis using dermoscopic images alone or together with clinical close-up images. GPT-5.2 demonstrated generally stable melanoma-related diagnostic performance across the evaluated skin tones. Data, source code, prompts, and reproducibility information are available in [assessment-on-milk10k](./assessment-on-milk10k).
 
 For comprehensive analysis and results, see:
 
