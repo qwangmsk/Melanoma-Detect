@@ -34,7 +34,7 @@ GPT Fusion was implemented as a standalone, locally deployable software tool tha
 </table>
 
 ### CNN models 
-The GPT Fusion framework uses GPT-5.5 reasoning to integrate the outputs of two independently developed CNN models, (i) a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification, and (ii) the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
+GPT Fusion uses GPT-5.5 reasoning to integrate the outputs of two independently developed CNN models, (i) a multimodal ResNet-50 model trained on the MILK10K dataset for multiclass skin lesion classification, and (ii) the first-place 90-model SIIM-ISIC ensemble optimized for melanoma detection. 
 
 1. <strong>CNN ensemble</strong> ranked first place in the SIIM-ISIC Melanoma Classification Challenge: https://www.kaggle.com/datasets/boliu0/melanoma-winning-models/. Command to download all models: 
 
