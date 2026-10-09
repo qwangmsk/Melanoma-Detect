@@ -8,7 +8,8 @@ We evaluated GPT-5 for melanoma detection using dermoscopic images from the ISIC
 
 For comprehensive analysis and results, we refer readers to our recent publication:
 
-    Wang Q, Amugo I, Rajakaruna H, et al. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic Images. Diagnostics. 2025;15:3052. https://doi.org/10.3390/diagnostics15233052
+    Wang Q, Amugo I, Rajakaruna H, et al. Evaluating GPT-5 for Melanoma Detection Using Dermoscopic
+    Images. Diagnostics. 2025;15:3052. https://doi.org/10.3390/diagnostics15233052
 
 ### GPT-5.2 performance across skin tones
 
@@ -16,7 +17,8 @@ We also evaluated GPT-5.2 using a balanced subset of 460 lesions from <strong>Mi
 
 For comprehensive analysis and results, see:
 
-    Frederickson KL, Adunyah SE, Wang Q. Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. Frontiers in Medicine. 2026;13:1816102. https://doi.org/10.3389/fmed.2026.1816102
+    Frederickson KL, Adunyah SE, Wang Q. Evaluation of GPT-5.2 for Melanoma Detection Across Skin Tones. 
+    Frontiers in Medicine. 2026;13:1816102. https://doi.org/10.3389/fmed.2026.1816102
 
 These evaluations demonstrated the potential of general-purpose multimodal LLMs for melanoma-related image interpretation while also revealing limitations of relying on an LLM alone. These observations motivated our subsequent work integrating LLM reasoning with specialized vision models in the GPT Fusion framework, provided in section below.
 
