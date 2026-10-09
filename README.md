@@ -20,7 +20,7 @@ For comprehensive analysis and results, see:
     Frederickson KL, Adunyah SE, Wang Q. Evaluation of GPT-5.2 for Melanoma Detection 
     Across Skin Tones. Front. Med. 2026, 13:1816102. doi: 10.3389/fmed.2026.1816102
 
-These evaluations demonstrated the potential of general-purpose multimodal LLMs for melanoma-related image interpretation while also revealing limitations of relying on an LLM alone. These observations motivated our subsequent work integrating LLM reasoning with specialized vision models in the GPT Fusion framework, provided in section below.
+These evaluations demonstrated the potential of general-purpose multimodal LLMs for melanoma-related image interpretation while also revealing limitations of relying on an LLM alone. These observations motivated our subsequent work integrating LLM with specialized vision models, described in section below.
 
 ## 2. GPT Fusion: reasoning-based integration of Convolutional Neural Networks (CNNs) for melanoma diagnosis
 <strong>GPT Fusion</strong> is a novel diagnostic framework that uses GPT-based reasoning to integrate complementary evidence from specialized vision models for melanoma diagnosis. By combining the strengths of multiple models within a unified reasoning framework, GPT Fusion enhanced melanoma diagnoses.
