@@ -92,6 +92,6 @@ Below are the commands and Python scripts we used to assess and compare four AI 
 ### Preprint
 
     Frederickson, KL, Li, D, Edrich, OD, et al. GPT Fusion: Reasoning-Based Integration 
-    of Specialized Convolutional Neural Networks for Melanoma Diagnosis. Research Square, 
-    rs.3.rs-10500601. August 2026. https://doi.org/10.21203/rs.3.rs-10500601/v2
+    of Specialized Convolutional Neural Networks for Melanoma Diagnosis. Research Square 
+    2026, rs.3.rs-10500601. https://doi.org/10.21203/rs.3.rs-10500601/v2
     
