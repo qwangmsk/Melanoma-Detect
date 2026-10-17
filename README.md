@@ -11,7 +11,7 @@ We evaluated GPT-5 for melanoma detection using dermoscopic images from the ISIC
 
 ### GPT-5.2 performance across skin tones
 
-We also evaluated GPT-5.2 using a balanced subset of 460 lesions from <strong>Milk10K</strong> dataset (92 lesions from each of five skin-tone groups). GPT-5.2 demonstrated generally stable melanoma-related diagnostic performance across the evaluated skin tones. Data and source code are available in [assessment-on-milk10k](./assessment-on-milk10k). For comprehensive analysis and results, see:
+We also evaluated GPT-5.2 on <strong>Milk10K</strong> dataset and GPT-5.2 demonstrated generally stable melanoma-related diagnostic performance across skin tones. Data and source code are available in [assessment-on-milk10k](./assessment-on-milk10k). For comprehensive analysis and results, see:
 
     Frederickson KL, Adunyah SE, Wang Q. Evaluation of GPT-5.2 for Melanoma Detection 
     Across Skin Tones. Front. Med. 2026, 13:1816102. doi: 10.3389/fmed.2026.1816102
